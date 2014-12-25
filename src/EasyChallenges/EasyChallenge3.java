@@ -6,10 +6,10 @@ package EasyChallenges;
  * So our answer is 2
  */
 public class EasyChallenge3 {
-
-
     public static void main(String [] args)
     {
+
+
 
     }
 }

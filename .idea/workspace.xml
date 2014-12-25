@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d438726-a0bd-4b5d-b825-7e23b9afd508" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ArraysAndSorting/arraySortingChallenge4.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/EasyChallenges/EasyChallenge3.java" afterPath="$PROJECT_DIR$/src/EasyChallenges/EasyChallenge3.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ArraysAndSorting/arraySortingChallenge4.java" afterPath="$PROJECT_DIR$/src/ArraysAndSorting/arraySortingChallenge4.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="programming.iws" />
@@ -32,8 +31,8 @@
       <file leaf-file-name="arraySortingChallenge4.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ArraysAndSorting/arraySortingChallenge4.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.19058296" vertical-offset="0" max-vertical-offset="446">
-              <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+            <state vertical-scroll-proportion="0.30493274" vertical-offset="0" max-vertical-offset="446">
+              <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -53,6 +52,7 @@
         <option value="$PROJECT_DIR$/src/EasyChallenges/EasyChallenge1.java" />
         <option value="$PROJECT_DIR$/src/EasyChallenges/EasyChallenge2.java" />
         <option value="$PROJECT_DIR$/src/EasyChallenges/EasyChallenge3.java" />
+        <option value="$PROJECT_DIR$/src/ArraysAndSorting/arraySortingChallenge4.java" />
       </list>
     </option>
   </component>
@@ -503,7 +503,13 @@
       <option name="project" value="LOCAL" />
       <updated>1419507615304</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="challengeSolved">
+      <created>1419508397327</created>
+      <option name="number" value="00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1419508397327</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -604,8 +610,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ArraysAndSorting/arraySortingChallenge4.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19058296" vertical-offset="0" max-vertical-offset="446">
-          <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+        <state vertical-scroll-proportion="0.30493274" vertical-offset="0" max-vertical-offset="446">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
           <folding />
         </state>
       </provider>

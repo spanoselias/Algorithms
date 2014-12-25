@@ -1,11 +1,15 @@
 package ArraysAndSorting;
-
 /**
- * Created by Elias on 12/25/2014.
+ * Created by Elia
  */
+import java.util.*;
 public class arraySortingChallenge4 {
     public static void main(String [] args)
     {
+        int[] array =new int[3];
+        Scanner keyboard=new Scanner(System.in);
+        System.out.println("Give the size of the array");
+
 
     }
 }

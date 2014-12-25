@@ -9,7 +9,7 @@ public class arraySortingChallenge4 {
         Scanner keyboard=new Scanner(System.in);
         int[] noArray =new int[1000];
 
-        int n,v;
+        int n,v,indexNo=0;
 
         System.out.println("Give the number that you want to search: ");
         v=keyboard.nextInt();
@@ -28,7 +28,12 @@ public class arraySortingChallenge4 {
             System.out.print(" " + noArray[i]);
         }
 
+        for (int i=0; i<n; i++) {
 
+        if(v==noArray[i]){indexNo=i; break;}
+        }
+
+        System.out.println("\n" + "The number is in position: " + indexNo);
 
     }
 }

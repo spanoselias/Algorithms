@@ -5,5 +5,17 @@ package Graphs;
  */
 public class DFS_NonRecursive {
 
+    public boolean[][] createGraph(boolean[][]graph)
+    {
 
+
+    }//Function CreateGraph
+
+
+    public static void main(String [] args){
+
+    System.out.println("Dfs algorithm");
+
+
+    }
 }

@@ -12,10 +12,10 @@ public class DFS_NonRecursive {
 
         boolean[][] graph=new boolean[N][N];
 
-        for(int i=0; i< graph.length;i++ ){
-            for(int j=0; i<graph.length; j++) {
-                System.out.println("Give true(False if is not) there are connection between Vertex" + i + "And" + j);
-                graph[i][j]=keyboard.nextBoolean();
+        for(int i=0; i< N;i++ ){
+            for(int j=0; j<N; j++) {
+                System.out.println("Give true(False if is not) there are connection between Vertex" +"("+ i +","+ j+"):");
+                graph[i][j]=true;
                 }//For J
             }//For I
 
@@ -25,10 +25,12 @@ public class DFS_NonRecursive {
 
     public static void main(String [] args){
 
-        System.out.println("Give the dimension of tha array");
+        Scanner keyboard=new Scanner(System.in);
+        System.out.println("Give the dimension of tha array:");
         int N=keyboard.nextInt();
 
        boolean graph[][]=createGraph(N);
+
 
 
     }

@@ -6,12 +6,9 @@ package Graphs;
 import java.util.*;
 public class DFS_NonRecursive {
 
-    public boolean[][] createGraph()
+    public static boolean[][] createGraph(int N)
     {
         Scanner keyboard=new Scanner(System.in);
-        int N=0;
-        System.out.println("Give the dimension of tha array");
-        N=keyboard.nextInt();
 
         boolean[][] graph=new boolean[N][N];
 
@@ -22,12 +19,17 @@ public class DFS_NonRecursive {
                 }//For J
             }//For I
 
+        return graph;
     }//Function CreateGraph
 
 
     public static void main(String [] args){
 
-    System.out.println("Dfs algorithm");
+        System.out.println("Give the dimension of tha array");
+        int N=keyboard.nextInt();
+
+       boolean graph[][]=createGraph(N);
+
 
     }
 }

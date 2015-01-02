@@ -15,7 +15,7 @@ public class DFS_NonRecursive {
         for(int i=0; i< N;i++ ){
             for(int j=0; j<N; j++) {
                 System.out.println("Give true(False if is not) there are connection between Vertex" +"("+ i +","+ j+"):");
-                graph[i][j]=true;
+                graph[i][j]=keyboard.nextBoolean();
                 }//For J
             }//For I
 

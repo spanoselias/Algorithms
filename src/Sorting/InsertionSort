@@ -19,7 +19,6 @@ public class InsertionSort
                     Numbers[i+1]=Numbers[i];
                     j=j-1;
                 }//While Statment
-
             Numbers[i]=key;
         }//For Statment
 

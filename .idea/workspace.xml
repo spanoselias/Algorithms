@@ -41,8 +41,8 @@
       <file leaf-file-name="InsertionSort" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Sorting/InsertionSort">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6375" vertical-offset="102" max-vertical-offset="731">
-              <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+            <state vertical-scroll-proportion="0.6375" vertical-offset="204" max-vertical-offset="748">
+              <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -697,7 +697,13 @@
       <option name="project" value="LOCAL" />
       <updated>1421083548445</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="InsertionSort">
+      <created>1421083623809</created>
+      <option name="number" value="00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1421083623809</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -845,8 +851,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Sorting/InsertionSort">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6375" vertical-offset="102" max-vertical-offset="731">
-          <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+        <state vertical-scroll-proportion="0.6375" vertical-offset="204" max-vertical-offset="748">
+          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
           <folding />
         </state>
       </provider>

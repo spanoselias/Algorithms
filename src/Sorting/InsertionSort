@@ -6,7 +6,7 @@ package  Sorting;
 import java.util.*;
 public class InsertionSort
 {
-    public static Integer [] InsertionSort(Integer Numbers[])
+    public static Integer [] InsertionSort(int[] Numbers)
     {
         int j=0,key=0;
         for (int i=0; i<Numbers.length; i++)
@@ -26,10 +26,18 @@ public class InsertionSort
     }//InsertionSort Method
     public static void main(String [] args)
     {
+        Scanner keyboard=new Scanner(System.in);
+        int a[]=new int [5];
+        for(int j=0; j<5; j++) {
+            System.out.println("Give a Number");
+            a[j]=keyboard.nextInt();
+        }//For J
 
-            int a[]=new int [5];
+       InsertionSort(a);
 
-
+        for(int j=0; j<5; j++) {
+            System.out.println(a[j]);
+        }//For J
 
         }//Main Class
      }//Class InsertionSort

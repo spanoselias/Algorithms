@@ -13,12 +13,11 @@ public class InserSort {
         for (int i=1; i<Numbers.length; i++)
         {
             key=Numbers[i];
-            j=i+1;
+            j=i-1;
 
-
-            while(i >-1 && Numbers[j]>key)
+            while(j >-1 && Numbers[j]>key)
             {
-                Numbers[i+1]=Numbers[i];
+                Numbers[j+1]=Numbers[j];
                 j=j-1;
             }//While Statment
             Numbers[i]=key;

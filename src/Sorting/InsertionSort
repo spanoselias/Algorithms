@@ -1,4 +1,4 @@
-package  Sorting;
+package Sorting;
 /**
  * Created by Elia
  *
@@ -21,7 +21,6 @@ public class InsertionSort
                 }//While Statment
             Numbers[i]=key;
         }//For Statment
-
     }//InsertionSort Method
     public static void main(String [] args)
     {

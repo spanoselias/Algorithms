@@ -32,7 +32,7 @@
         <entry file="file://$PROJECT_DIR$/src/Challenges/ArraysAndSorting/Graphs/DFS_NonRecursive.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="731">
-              <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="18" selection-end-column="24" />
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -41,8 +41,8 @@
       <file leaf-file-name="InsertionSort" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Sorting/InsertionSort">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6020833" vertical-offset="102" max-vertical-offset="867">
-              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.17708333" vertical-offset="0" max-vertical-offset="850">
+              <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -165,29 +165,7 @@
     <property name="dynamic.classpath" value="false" />
     <property name="FullScreen" value="false" />
   </component>
-  <component name="RunManager" selected="Application.DFS_NonRecursive">
-    <configuration default="false" name="test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Challenges.ArraysAndSorting.EasyChallenges.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="EasyChallenges.test1" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="programming" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.arraySortingChallenge4">
     <configuration default="false" name="EasyChallenge1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -285,6 +263,28 @@
       </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Sorting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="Sorting.InsertionSort" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="programming" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -442,19 +442,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.test1" />
-      <item index="1" class="java.lang.String" itemvalue="Application.EasyChallenge1" />
-      <item index="2" class="java.lang.String" itemvalue="Application.EasyChallenge2" />
-      <item index="3" class="java.lang.String" itemvalue="Application.arraySortingChallenge4" />
-      <item index="4" class="java.lang.String" itemvalue="Application.DFS_NonRecursive" />
+      <item index="0" class="java.lang.String" itemvalue="Application.EasyChallenge1" />
+      <item index="1" class="java.lang.String" itemvalue="Application.EasyChallenge2" />
+      <item index="2" class="java.lang.String" itemvalue="Application.arraySortingChallenge4" />
+      <item index="3" class="java.lang.String" itemvalue="Application.DFS_NonRecursive" />
+      <item index="4" class="java.lang.String" itemvalue="Application.InsertionSort" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.DFS_NonRecursive" />
-        <item index="1" class="java.lang.String" itemvalue="Application.arraySortingChallenge4" />
-        <item index="2" class="java.lang.String" itemvalue="Application.EasyChallenge2" />
-        <item index="3" class="java.lang.String" itemvalue="Application.EasyChallenge1" />
-        <item index="4" class="java.lang.String" itemvalue="Application.test1" />
+        <item index="0" class="java.lang.String" itemvalue="Application.arraySortingChallenge4" />
+        <item index="1" class="java.lang.String" itemvalue="Application.InsertionSort" />
+        <item index="2" class="java.lang.String" itemvalue="Application.DFS_NonRecursive" />
+        <item index="3" class="java.lang.String" itemvalue="Application.EasyChallenge2" />
+        <item index="4" class="java.lang.String" itemvalue="Application.EasyChallenge1" />
       </list>
     </recent_temporary>
   </component>
@@ -721,7 +721,13 @@
       <option name="project" value="LOCAL" />
       <updated>1421083903144</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="InsertionSort">
+      <created>1421083924438</created>
+      <option name="number" value="00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1421083924438</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -778,7 +784,15 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="6" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Sorting/InsertionSort</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="7" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -862,15 +876,15 @@
     <entry file="file://$PROJECT_DIR$/src/Challenges/ArraysAndSorting/Graphs/DFS_NonRecursive.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="731">
-          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="18" selection-end-column="24" />
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Sorting/InsertionSort">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6020833" vertical-offset="102" max-vertical-offset="867">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.17708333" vertical-offset="0" max-vertical-offset="850">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
           <folding />
         </state>
       </provider>

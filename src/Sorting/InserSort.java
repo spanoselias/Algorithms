@@ -20,7 +20,7 @@ public class InserSort {
                 Numbers[j+1]=Numbers[j];
                 j=j-1;
             }//While Statment
-            Numbers[i]=key;
+            Numbers[j+1]=key;
         }//For Statment
     }//InsertionSort Method
 
@@ -28,7 +28,7 @@ public class InserSort {
 
         Scanner keyboard=new Scanner(System.in);
         int a[]=new int [5];
-        for(int j=0; j<4; j++) {
+        for(int j=0; j<5; j++) {
 
             System.out.println("Give a Number:");
             a[j]=keyboard.nextInt();

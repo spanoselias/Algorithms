@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d438726-a0bd-4b5d-b825-7e23b9afd508" name="Default" comment="">
-      <change type="MOVED" beforePath="C:\Users\Elias\Documents\GitHub\programmingChallenges\src\Sorting\InserSort.java" afterPath="$PROJECT_DIR$/src/Sorting/InsertionSort.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Sorting/InsertionSort.java" afterPath="$PROJECT_DIR$/src/Sorting/InsertionSort.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="programming.iws" />
@@ -44,8 +44,8 @@
       <file leaf-file-name="InsertionSort.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Sorting/InsertionSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.26719058" vertical-offset="0" max-vertical-offset="867">
-              <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+            <state vertical-scroll-proportion="0.100196466" vertical-offset="0" max-vertical-offset="850">
+              <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -484,12 +484,6 @@
       <option name="number" value="Default" />
       <updated>1419444388784</updated>
     </task>
-    <task id="LOCAL-00007" summary="challengeSolved">
-      <created>1419445389105</created>
-      <option name="number" value="00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1419445389105</updated>
-    </task>
     <task id="LOCAL-00008" summary="challengeSolved">
       <created>1419447446188</created>
       <option name="number" value="00008" />
@@ -778,7 +772,13 @@
       <option name="project" value="LOCAL" />
       <updated>1421088785223</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="InsertionSort">
+      <created>1421089125262</created>
+      <option name="number" value="00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1421089125262</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -937,8 +937,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Sorting/InsertionSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26719058" vertical-offset="0" max-vertical-offset="867">
-          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+        <state vertical-scroll-proportion="0.100196466" vertical-offset="0" max-vertical-offset="850">
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

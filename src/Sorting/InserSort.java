@@ -32,13 +32,13 @@ public class InserSort {
 
         int size = randomGenerator.nextInt(1000);
         int a[]=new int [size];
-        for(int j=0; j<size; j++) {
+        for(int j=0; j<a.length; j++) {
             a[j]=randomGenerator.nextInt(10000);
         }//For J
 
         Insertionsort(a);
 
-        for(int j=0; j<5; j++) {
+        for(int j=0; j<a.length; j++) {
             System.out.print(a[j]+ " ,");
         }//For J
     }

@@ -44,8 +44,8 @@
       <file leaf-file-name="InserSort.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Sorting/InserSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.76817286" vertical-offset="306" max-vertical-offset="867">
-              <caret line="41" column="37" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="37" />
+            <state vertical-scroll-proportion="0.76620823" vertical-offset="205" max-vertical-offset="867">
+              <caret line="35" column="45" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -483,12 +483,6 @@
       <option name="number" value="Default" />
       <updated>1419444388784</updated>
     </task>
-    <task id="LOCAL-00005" summary="config">
-      <created>1419445264561</created>
-      <option name="number" value="00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1419445264561</updated>
-    </task>
     <task id="LOCAL-00006" summary="config">
       <created>1419445303037</created>
       <option name="number" value="00006" />
@@ -777,7 +771,13 @@
       <option name="project" value="LOCAL" />
       <updated>1421086271233</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="InsertionSort">
+      <created>1421088646857</created>
+      <option name="number" value="00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1421088646858</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -936,8 +936,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Sorting/InserSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.76817286" vertical-offset="306" max-vertical-offset="867">
-          <caret line="41" column="37" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="37" />
+        <state vertical-scroll-proportion="0.76620823" vertical-offset="205" max-vertical-offset="867">
+          <caret line="35" column="45" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

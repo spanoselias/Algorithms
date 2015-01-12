@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d438726-a0bd-4b5d-b825-7e23b9afd508" name="Default" comment="">
-      <change type="MOVED" beforePath="C:\Users\Elias\Documents\GitHub\programmingChallenges\src\ArraysAndSorting\arraySortingChallenge4.java" afterPath="$PROJECT_DIR$/src/Challenges/ArraysAndSorting/arraySortingChallenge4.java" />
-      <change type="MOVED" beforePath="C:\Users\Elias\Documents\GitHub\programmingChallenges\src\EasyChallenges\EasyChallenge1.java" afterPath="$PROJECT_DIR$/src/Challenges/ArraysAndSorting/EasyChallenges/EasyChallenge1.java" />
-      <change type="MOVED" beforePath="C:\Users\Elias\Documents\GitHub\programmingChallenges\src\EasyChallenges\EasyChallenge2.java" afterPath="$PROJECT_DIR$/src/Challenges/ArraysAndSorting/EasyChallenges/EasyChallenge2.java" />
-      <change type="MOVED" beforePath="C:\Users\Elias\Documents\GitHub\programmingChallenges\src\EasyChallenges\EasyChallenge3.java" afterPath="$PROJECT_DIR$/src/Challenges/ArraysAndSorting/EasyChallenges/EasyChallenge3.java" />
-      <change type="MOVED" beforePath="C:\Users\Elias\Documents\GitHub\programmingChallenges\src\Graphs\DFS_NonRecursive.java" afterPath="$PROJECT_DIR$/src/Challenges/ArraysAndSorting/Graphs/DFS_NonRecursive.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="programming.iws" />
@@ -45,8 +40,8 @@
       <file leaf-file-name="arraySortingChallenge4.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Challenges/ArraysAndSorting/arraySortingChallenge4.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.28290766" vertical-offset="94" max-vertical-offset="799">
-              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.91748524" vertical-offset="94" max-vertical-offset="799">
+              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -610,7 +605,13 @@
       <option name="project" value="LOCAL" />
       <updated>1420192056801</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Sorting">
+      <created>1421054190662</created>
+      <option name="number" value="00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1421054190662</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -661,7 +662,8 @@
     <MESSAGE value="config" />
     <MESSAGE value="challengeSolved" />
     <MESSAGE value="GraphAlgorithms" />
-    <option name="LAST_COMMIT_MESSAGE" value="GraphAlgorithms" />
+    <MESSAGE value="Sorting" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sorting" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -710,6 +712,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -717,6 +720,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.34343433" vertical-offset="0" max-vertical-offset="495">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -724,6 +728,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5494949" vertical-offset="0" max-vertical-offset="527">
           <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -731,6 +736,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6181818" vertical-offset="0" max-vertical-offset="629">
           <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -744,8 +750,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Challenges/ArraysAndSorting/arraySortingChallenge4.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28290766" vertical-offset="94" max-vertical-offset="799">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.91748524" vertical-offset="94" max-vertical-offset="799">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
           <folding />
         </state>
       </provider>

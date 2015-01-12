@@ -7,6 +7,10 @@ import java.util.*;
 public class InsertionSort
 {
 
+    public static Integer [] InsertionSort(Integer Numbers[])
+    {
+
+    }//InsertionSort Method
 public static void main(String [] args)
 {
 

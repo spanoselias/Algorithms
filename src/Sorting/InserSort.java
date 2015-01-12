@@ -1,6 +1,7 @@
 package Sorting;
 
 import java.util.Scanner;
+import java.util.Random;
 
 /**
  * Created by Elias on 1/12/2015.
@@ -27,17 +28,18 @@ public class InserSort {
     public static void main(String [] args){
 
         Scanner keyboard=new Scanner(System.in);
-        int a[]=new int [5];
-        for(int j=0; j<5; j++) {
+        Random randomGenerator = new Random();
 
-            System.out.println("Give a Number:");
-            a[j]=keyboard.nextInt();
+        int size = randomGenerator.nextInt(1000);
+        int a[]=new int [size];
+        for(int j=0; j<size; j++) {
+            a[j]=randomGenerator.nextInt(10000);
         }//For J
 
         Insertionsort(a);
 
         for(int j=0; j<5; j++) {
-            System.out.println(a[j]);
+            System.out.print(a[j]+ " ,");
         }//For J
     }
 }

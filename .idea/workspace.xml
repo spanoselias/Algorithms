@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d438726-a0bd-4b5d-b825-7e23b9afd508" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Sorting/InserSort.java" afterPath="$PROJECT_DIR$/src/Sorting/InserSort.java" />
+      <change type="DELETED" beforePath="C:\Users\Elias\Documents\GitHub\programmingChallenges\src\Sorting\InsertionSort" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="programming.iws" />
@@ -41,22 +41,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InsertionSort" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Sorting/InsertionSort">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.586207" vertical-offset="52" max-vertical-offset="612">
-              <caret line="30" column="14" selection-start-line="26" selection-start-column="8" selection-end-line="37" selection-end-column="16" />
-              <folding>
-                <element signature="method#Insesort#0;class#InsertionSort#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="InserSort.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Sorting/InserSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.75442046" vertical-offset="58" max-vertical-offset="833">
+            <state vertical-scroll-proportion="0.86836934" vertical-offset="0" max-vertical-offset="833">
               <caret line="26" column="44" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
               <folding />
             </state>
@@ -493,12 +481,6 @@
       <option name="number" value="Default" />
       <updated>1419444388784</updated>
     </task>
-    <task id="LOCAL-00003" summary="config">
-      <created>1419445195223</created>
-      <option name="number" value="00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1419445195223</updated>
-    </task>
     <task id="LOCAL-00004" summary="config">
       <created>1419445210164</created>
       <option name="number" value="00004" />
@@ -787,7 +769,13 @@
       <option name="project" value="LOCAL" />
       <updated>1421085816273</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="InsertionSort">
+      <created>1421086187477</created>
+      <option name="number" value="00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1421086187477</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -845,12 +833,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Sorting/InsertionSort</url>
-          <line>28</line>
-          <properties />
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Sorting/InserSort.java</url>
           <line>12</line>
@@ -976,19 +958,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Sorting/InsertionSort">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.586207" vertical-offset="52" max-vertical-offset="612">
-          <caret line="30" column="14" selection-start-line="26" selection-start-column="8" selection-end-line="37" selection-end-column="16" />
-          <folding>
-            <element signature="method#Insesort#0;class#InsertionSort#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Sorting/InserSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.75442046" vertical-offset="58" max-vertical-offset="833">
+        <state vertical-scroll-proportion="0.86836934" vertical-offset="0" max-vertical-offset="833">
           <caret line="26" column="44" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
           <folding />
         </state>

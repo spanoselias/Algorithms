@@ -10,10 +10,11 @@ public class InserSort {
     public static void Insertionsort(int[] Numbers)
     {
         int j=0,key=0;
-        for (int i=0; i<Numbers.length; i++)
+        for (int i=1; i<Numbers.length; i++)
         {
+            key=Numbers[i];
             j=i+1;
-            key=Numbers[j];
+
 
             while(i >-1 && Numbers[j]>key)
             {
@@ -29,6 +30,7 @@ public class InserSort {
         Scanner keyboard=new Scanner(System.in);
         int a[]=new int [5];
         for(int j=0; j<4; j++) {
+
             System.out.println("Give a Number:");
             a[j]=keyboard.nextInt();
         }//For J

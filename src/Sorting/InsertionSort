@@ -14,12 +14,13 @@ public class InsertionSort
             j=i+1;
             key=Numbers[j];
 
-                while(i >-1 && Numbers[i]>key)
+                while(i >-1 && Numbers[j]>key)
                 {
-
-
+                    Numbers[i+1]=Numbers[i];
+                    j=j-1;
                 }//While Statment
 
+            Numbers[i]=key;
         }//For Statment
 
     }//InsertionSort Method

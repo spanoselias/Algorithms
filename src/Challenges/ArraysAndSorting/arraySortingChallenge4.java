@@ -1,4 +1,4 @@
-package ArraysAndSorting;
+package Challenges.ArraysAndSorting;
 /**
  * Created by Elia
  *

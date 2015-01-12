@@ -1,4 +1,4 @@
-package EasyChallenges;
+package Challenges.ArraysAndSorting.EasyChallenges;
 
 import java.util.Scanner;
 

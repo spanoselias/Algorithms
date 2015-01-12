@@ -1,4 +1,4 @@
-package EasyChallenges;
+package Challenges.ArraysAndSorting.EasyChallenges;
 
 /**
  * You are given an integer N. Find the digits in this number that exactly divide N and display their count.

@@ -1,6 +1,5 @@
-package EasyChallenges;
+package Challenges.ArraysAndSorting.EasyChallenges;
 import java.util.*;
-import java.io.*;
 
 class EasyChallenge1 {
     String FirstReverse(String str) {

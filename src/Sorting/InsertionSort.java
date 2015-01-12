@@ -6,8 +6,7 @@ import java.util.Random;
 /**
  * Created by Elias on 1/12/2015.
  */
-public class InserSort {
-
+public class InsertionSort {
     public static void Insertionsort(int[] Numbers)
     {
         int j=0,key=0;
@@ -30,16 +29,17 @@ public class InserSort {
         Scanner keyboard=new Scanner(System.in);
         Random randomGenerator = new Random();
 
-        int size = randomGenerator.nextInt(1000);
+        int size = randomGenerator.nextInt(1000000);
         int a[]=new int [size];
+
         for(int j=0; j<a.length; j++) {
             a[j]=randomGenerator.nextInt(10000);
         }//For J
-
         Insertionsort(a);
 
         for(int j=0; j<a.length; j++) {
-            System.out.print(a[j]+ " ,");
+            if(j % 23 ==0){System.out.println();}
+            System.out.print(a[j] + " ,");
         }//For J
     }
 }

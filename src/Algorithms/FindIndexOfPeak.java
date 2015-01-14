@@ -1,6 +1,6 @@
 package Algorithms;
 
-import java.util.Random;
+
 import java.util.Scanner;
 
 
@@ -28,7 +28,7 @@ public class FindIndexOfPeak {
     public static void main(String [] args){
 
         Scanner keyboard=new Scanner(System.in);
-
+        int elements[]={2,4,1,5,7,8};
 
     }
 }

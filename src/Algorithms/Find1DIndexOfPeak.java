@@ -26,7 +26,16 @@ public class Find1DIndexOfPeak {
     public static void main(String [] args){
 
         Scanner keyboard=new Scanner(System.in);
-        int elements[]={2,4,1,5,7,6};
+        Random randomGenerator = new Random();
+
+        int size = randomGenerator.nextInt(100000000);
+        int elements[]=new int [size];
+
+        for(int j=0; j<elements.length; j++) {
+            elements[j]=randomGenerator.nextInt(1000000);
+        }//For J
+
+
         int answer=FindPeak(elements,0, elements.length);
 
         System.out.println(answer);

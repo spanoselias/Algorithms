@@ -28,25 +28,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MergeSort.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Sorting/MergeSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
-              <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
-              <folding>
-                <element signature="e#135#136#0" expanded="true" />
-                <element signature="e#182#183#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="InsertionSort.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Sorting/InsertionSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="850">
-              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="24" />
-              <folding />
+            <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="850">
+              <caret line="35" column="16" selection-start-line="33" selection-start-column="7" selection-end-line="35" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -54,8 +43,8 @@
       <file leaf-file-name="Find1DIndexOfPeak.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Algorithms/Find1DIndexOfPeak.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.094444446" vertical-offset="0" max-vertical-offset="680">
-              <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+            <state vertical-scroll-proportion="0.80185187" vertical-offset="77" max-vertical-offset="833">
+              <caret line="30" column="46" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -84,8 +73,8 @@
         <option value="$PROJECT_DIR$/src/Sorting/InsertionSort" />
         <option value="$PROJECT_DIR$/src/Sorting/Insertionsort.java" />
         <option value="$PROJECT_DIR$/src/Sorting/InserSort.java" />
-        <option value="$PROJECT_DIR$/src/Sorting/InsertionSort.java" />
         <option value="$PROJECT_DIR$/src/Algorithms/FindIndexOfPeak.java" />
+        <option value="$PROJECT_DIR$/src/Sorting/InsertionSort.java" />
         <option value="$PROJECT_DIR$/src/Algorithms/Find1DIndexOfPeak.java" />
       </list>
     </option>
@@ -496,12 +485,6 @@
       <option name="number" value="Default" />
       <updated>1419444388784</updated>
     </task>
-    <task id="LOCAL-00056" summary="InsertionSort">
-      <created>1421089125262</created>
-      <option name="number" value="00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1421089125262</updated>
-    </task>
     <task id="LOCAL-00057" summary="InsertionSort">
       <created>1421089141577</created>
       <option name="number" value="00057" />
@@ -790,7 +773,13 @@
       <option name="project" value="LOCAL" />
       <updated>1421250121593</updated>
     </task>
-    <option name="localTasksCounter" value="105" />
+    <task id="LOCAL-00105" summary="Find Peak Algorithm">
+      <created>1421271295285</created>
+      <option name="number" value="00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1421271295286</updated>
+    </task>
+    <option name="localTasksCounter" value="106" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -815,7 +804,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33151433" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20327422" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -851,20 +840,24 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Algorithms/Find1DIndexOfPeak.java</url>
-          <line>12</line>
+          <line>40</line>
           <properties />
-          <option name="timeStamp" value="15" />
+          <option name="timeStamp" value="25" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Algorithms/Find1DIndexOfPeak.java</url>
-          <line>24</line>
+          <line>41</line>
           <properties />
-          <option name="timeStamp" value="16" />
+          <option name="timeStamp" value="26" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="25" />
+      <option name="time" value="27" />
     </breakpoint-manager>
-    <watches-manager />
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="elements" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -956,24 +949,26 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
           <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
           <folding>
-            <element signature="e#135#136#0" expanded="true" />
-            <element signature="e#182#183#0" expanded="true" />
+            <element signature="e#135#136#0" expanded="false" />
+            <element signature="e#182#183#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Sorting/InsertionSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="850">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="24" />
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="850">
+          <caret line="35" column="16" selection-start-line="33" selection-start-column="7" selection-end-line="35" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Algorithms/Find1DIndexOfPeak.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.094444446" vertical-offset="0" max-vertical-offset="680">
-          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+        <state vertical-scroll-proportion="0.80185187" vertical-offset="77" max-vertical-offset="833">
+          <caret line="30" column="46" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

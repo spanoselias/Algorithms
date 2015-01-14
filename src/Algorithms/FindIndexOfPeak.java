@@ -5,7 +5,7 @@ import java.util.Scanner;
  * Created by Elias on 1/12/2015.
  */
 public class FindIndexOfPeak {
-    public static int FindPeak(int[] A,int n)
+    public static int FindPeak(int[] A,int starPos,int endPos)
     {
         if(A[n/2]>= A[(n/2)-1] && A[n/2]>=A[(n/2)+1] )
         {

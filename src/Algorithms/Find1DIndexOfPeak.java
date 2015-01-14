@@ -1,6 +1,7 @@
 package Algorithms;
 
 import java.util.Scanner;
+import java.util.Random;
 /**
  * Created by Elias on 1/12/2015.
  */

@@ -1,9 +1,6 @@
 package Algorithms;
 
-
 import java.util.Scanner;
-
-
 /**
  * Created by Elias on 1/12/2015.
  */

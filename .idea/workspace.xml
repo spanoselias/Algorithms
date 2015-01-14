@@ -56,8 +56,8 @@
       <file leaf-file-name="FindIndexOfPeak.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Algorithms/FindIndexOfPeak.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.37777779" vertical-offset="0" max-vertical-offset="540">
-              <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+            <state vertical-scroll-proportion="0.44074073" vertical-offset="0" max-vertical-offset="561">
+              <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -479,12 +479,6 @@
       <option name="number" value="Default" />
       <updated>1419444388784</updated>
     </task>
-    <task id="LOCAL-00015" summary="challengeSolved">
-      <created>1419509920418</created>
-      <option name="number" value="00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1419509920418</updated>
-    </task>
     <task id="LOCAL-00016" summary="challengeSolved">
       <created>1419510380320</created>
       <option name="number" value="00016" />
@@ -773,7 +767,13 @@
       <option name="project" value="LOCAL" />
       <updated>1421245345144</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="Find Peak Algorithm">
+      <created>1421245369257</created>
+      <option name="number" value="00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1421245369257</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -826,7 +826,8 @@
     <MESSAGE value="GraphAlgorithms" />
     <MESSAGE value="Sorting" />
     <MESSAGE value="InsertionSort" />
-    <option name="LAST_COMMIT_MESSAGE" value="InsertionSort" />
+    <MESSAGE value="Find Peak Algorithm" />
+    <option name="LAST_COMMIT_MESSAGE" value="Find Peak Algorithm" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -942,8 +943,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Algorithms/FindIndexOfPeak.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37777779" vertical-offset="0" max-vertical-offset="540">
-          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+        <state vertical-scroll-proportion="0.44074073" vertical-offset="0" max-vertical-offset="561">
+          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

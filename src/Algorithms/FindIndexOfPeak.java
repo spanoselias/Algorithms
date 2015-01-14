@@ -8,8 +8,12 @@ import java.util.Scanner;
  * Created by Elias on 1/12/2015.
  */
 public class FindIndexOfPeak {
-    public static int FindPeak(int[] Numbers,int n)
+    public static int FindPeak(int[] A,int n)
     {
+        if(A[n/2]>=A[(n/2)-1] && A[n/2]>=A[(n/2)+1] )
+        {
+
+        }//If statment
 
 
     }//FindPeak Method

@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d438726-a0bd-4b5d-b825-7e23b9afd508" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Algorithms/FindIndexOfPeak.java" afterPath="$PROJECT_DIR$/src/Algorithms/FindIndexOfPeak.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="programming.iws" />
@@ -56,8 +55,8 @@
       <file leaf-file-name="FindIndexOfPeak.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Algorithms/FindIndexOfPeak.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6994106" vertical-offset="154" max-vertical-offset="663">
-              <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+            <state vertical-scroll-proportion="0.26522595" vertical-offset="52" max-vertical-offset="646">
+              <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -151,24 +150,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="programming" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="programmingChallenges" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Algorithms" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -497,12 +478,6 @@
       <option name="number" value="Default" />
       <updated>1419444388784</updated>
     </task>
-    <task id="LOCAL-00012" summary="challengeSolved">
-      <created>1419508443362</created>
-      <option name="number" value="00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1419508443362</updated>
-    </task>
     <task id="LOCAL-00013" summary="challengeSolved">
       <created>1419508706420</created>
       <option name="number" value="00013" />
@@ -791,7 +766,13 @@
       <option name="project" value="LOCAL" />
       <updated>1421245251890</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="InsertionSort">
+      <created>1421245285021</created>
+      <option name="number" value="00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1421245285021</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -960,8 +941,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Algorithms/FindIndexOfPeak.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6994106" vertical-offset="154" max-vertical-offset="663">
-          <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+        <state vertical-scroll-proportion="0.26522595" vertical-offset="52" max-vertical-offset="646">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

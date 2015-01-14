@@ -9,8 +9,7 @@ import java.util.Scanner;
  */
 public class FindIndexOfPeak {
     public static void FindPeak(int[] Numbers,int n)
-    {
-        int j=0,key=0;
+    {        int j=0,key=0;
         for (int i=1; i<Numbers.length; i++)
         {
             key=Numbers[i];

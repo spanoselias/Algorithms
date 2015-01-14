@@ -56,8 +56,8 @@
       <file leaf-file-name="FindIndexOfPeak.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Algorithms/FindIndexOfPeak.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.56666666" vertical-offset="0" max-vertical-offset="663">
-              <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+            <state vertical-scroll-proportion="0.6296296" vertical-offset="51" max-vertical-offset="680">
+              <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -479,12 +479,6 @@
       <option name="number" value="Default" />
       <updated>1419444388784</updated>
     </task>
-    <task id="LOCAL-00017" summary="challengeSolved">
-      <created>1419514936575</created>
-      <option name="number" value="00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1419514936575</updated>
-    </task>
     <task id="LOCAL-00018" summary="challengeSolved">
       <created>1419581506743</created>
       <option name="number" value="00018" />
@@ -773,7 +767,13 @@
       <option name="project" value="LOCAL" />
       <updated>1421245505502</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="Find Peak Algorithm">
+      <created>1421245722474</created>
+      <option name="number" value="00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1421245722474</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -943,8 +943,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Algorithms/FindIndexOfPeak.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.56666666" vertical-offset="0" max-vertical-offset="663">
-          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+        <state vertical-scroll-proportion="0.6296296" vertical-offset="51" max-vertical-offset="680">
+          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

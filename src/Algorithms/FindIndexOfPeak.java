@@ -14,13 +14,14 @@ public class FindIndexOfPeak {
         {
             return n/2;
         }//If statment
-        else if (A[n/2]<= A[(n/2)-1]{
+        else if (A[n/2]<= A[(n/2)-1]){
          return FindPeak(A,(n/2)-1);
         }
-        else if (A[n/2]<= A[(n/2)+1)
+        else if (A[n/2]<= A[(n/2)+1])
          {
              return FindPeak(A,(n/2)+1);
          }
+        else return -1;
 
     }//FindPeak Method
 

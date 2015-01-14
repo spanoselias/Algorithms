@@ -493,12 +493,6 @@
       <option name="number" value="Default" />
       <updated>1419444388784</updated>
     </task>
-    <task id="LOCAL-00009" summary="challengeSolved">
-      <created>1419507587236</created>
-      <option name="number" value="00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1419507587236</updated>
-    </task>
     <task id="LOCAL-00010" summary="challengeSolved">
       <created>1419507615304</created>
       <option name="number" value="00010" />
@@ -787,7 +781,13 @@
       <option name="project" value="LOCAL" />
       <updated>1421089141577</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="InsertionSort">
+      <created>1421245130751</created>
+      <option name="number" value="00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1421245130751</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="ToolWindowManager">

@@ -43,8 +43,8 @@
       <file leaf-file-name="Find1DIndexOfPeak.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Algorithms/Find1DIndexOfPeak.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.80185187" vertical-offset="77" max-vertical-offset="833">
-              <caret line="30" column="46" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
+            <state vertical-scroll-proportion="0.64444447" vertical-offset="77" max-vertical-offset="816">
+              <caret line="25" column="44" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -485,12 +485,6 @@
       <option name="number" value="Default" />
       <updated>1419444388784</updated>
     </task>
-    <task id="LOCAL-00057" summary="InsertionSort">
-      <created>1421089141577</created>
-      <option name="number" value="00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1421089141577</updated>
-    </task>
     <task id="LOCAL-00058" summary="InsertionSort">
       <created>1421245130751</created>
       <option name="number" value="00058" />
@@ -779,7 +773,13 @@
       <option name="project" value="LOCAL" />
       <updated>1421271295286</updated>
     </task>
-    <option name="localTasksCounter" value="106" />
+    <task id="LOCAL-00106" summary="Find Peak Algorithm">
+      <created>1421271711001</created>
+      <option name="number" value="00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1421271711001</updated>
+    </task>
+    <option name="localTasksCounter" value="107" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -840,13 +840,13 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Algorithms/Find1DIndexOfPeak.java</url>
-          <line>40</line>
+          <line>39</line>
           <properties />
           <option name="timeStamp" value="25" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Algorithms/Find1DIndexOfPeak.java</url>
-          <line>41</line>
+          <line>40</line>
           <properties />
           <option name="timeStamp" value="26" />
         </line-breakpoint>
@@ -967,8 +967,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Algorithms/Find1DIndexOfPeak.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.80185187" vertical-offset="77" max-vertical-offset="833">
-          <caret line="30" column="46" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
+        <state vertical-scroll-proportion="0.64444447" vertical-offset="77" max-vertical-offset="816">
+          <caret line="25" column="44" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

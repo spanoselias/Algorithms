@@ -29,6 +29,8 @@ public class FindIndexOfPeak {
 
         Scanner keyboard=new Scanner(System.in);
         int elements[]={2,4,1,5,7,8};
+        int answer=FindPeak(elements, elements.length);
 
+        System.out.println(answer);
     }
 }

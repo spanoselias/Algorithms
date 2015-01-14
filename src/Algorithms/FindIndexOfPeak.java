@@ -11,6 +11,7 @@ public class FindIndexOfPeak {
     public static int FindPeak(int[] Numbers,int n)
     {
 
+
     }//FindPeak Method
 
     public static void main(String [] args){

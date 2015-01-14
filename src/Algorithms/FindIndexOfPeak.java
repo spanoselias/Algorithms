@@ -13,7 +13,7 @@ public class FindIndexOfPeak {
         {
            return FindPeak(A,startPos,curPos-1);
         }//If statment
-        else if (A[curPos]<= A[curPos+1]){
+        else if (curPos+1 < A.length && A[curPos]<= A[curPos+1]){
          return FindPeak(A,curPos+1,endPos);
         }
         else
@@ -26,7 +26,7 @@ public class FindIndexOfPeak {
 
         Scanner keyboard=new Scanner(System.in);
         int elements[]={2,4,1,5,7,8};
-        int answer=FindPeak(elements, elements.length);
+        int answer=FindPeak(elements,0, elements.length);
 
         System.out.println(answer);
     }

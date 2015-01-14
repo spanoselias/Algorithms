@@ -495,12 +495,6 @@
       <option name="number" value="Default" />
       <updated>1419444388784</updated>
     </task>
-    <task id="LOCAL-00028" summary="Sorting">
-      <created>1421054277909</created>
-      <option name="number" value="00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1421054277909</updated>
-    </task>
     <task id="LOCAL-00029" summary="Sorting">
       <created>1421054336410</created>
       <option name="number" value="00029" />
@@ -789,7 +783,13 @@
       <option name="project" value="LOCAL" />
       <updated>1421249108556</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="Find Peak Algorithm">
+      <created>1421249111914</created>
+      <option name="number" value="00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1421249111914</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="ToolWindowManager">

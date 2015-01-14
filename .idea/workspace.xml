@@ -55,7 +55,7 @@
       <file leaf-file-name="Find1DIndexOfPeak.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Algorithms/Find1DIndexOfPeak.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.18888889" vertical-offset="0" max-vertical-offset="663">
+            <state vertical-scroll-proportion="0.094444446" vertical-offset="51" max-vertical-offset="663">
               <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
               <folding />
             </state>
@@ -495,12 +495,6 @@
       <option name="number" value="Default" />
       <updated>1419444388784</updated>
     </task>
-    <task id="LOCAL-00054" summary="InsertionSort">
-      <created>1421088646857</created>
-      <option name="number" value="00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1421088646858</updated>
-    </task>
     <task id="LOCAL-00055" summary="InsertionSort">
       <created>1421088785223</created>
       <option name="number" value="00055" />
@@ -789,7 +783,13 @@
       <option name="project" value="LOCAL" />
       <updated>1421249197301</updated>
     </task>
-    <option name="localTasksCounter" value="103" />
+    <task id="LOCAL-00103" summary="Find Peak Algorithm">
+      <created>1421249200035</created>
+      <option name="number" value="00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1421249200035</updated>
+    </task>
+    <option name="localTasksCounter" value="104" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -991,7 +991,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Algorithms/Find1DIndexOfPeak.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18888889" vertical-offset="0" max-vertical-offset="663">
+        <state vertical-scroll-proportion="0.094444446" vertical-offset="51" max-vertical-offset="663">
           <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
           <folding />
         </state>

@@ -4,7 +4,7 @@ import java.util.Scanner;
 /**
  * Created by Elias on 1/12/2015.
  */
-public class FindIndexOfPeak {
+public class Find1DIndexOfPeak {
     public static int FindPeak(int[] A,int startPos,int endPos)
     {
         int curPos=startPos+(endPos-startPos)/2;

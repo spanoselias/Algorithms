@@ -10,11 +10,17 @@ import java.util.Scanner;
 public class FindIndexOfPeak {
     public static int FindPeak(int[] A,int n)
     {
-        if(A[n/2]>=A[(n/2)-1] && A[n/2]>=A[(n/2)+1] )
+        if(A[n/2]>= A[(n/2)-1] && A[n/2]>=A[(n/2)+1] )
         {
-
+            return n/2;
         }//If statment
-
+        else if (A[n/2]<= A[(n/2)-1]{
+         return FindPeak(A,(n/2)-1);
+        }
+        else if (A[n/2]<= A[(n/2)+1)
+         {
+             return FindPeak(A,(n/2)+1);
+         }
 
     }//FindPeak Method
 

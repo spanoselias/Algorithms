@@ -495,12 +495,6 @@
       <option name="number" value="Default" />
       <updated>1419444388784</updated>
     </task>
-    <task id="LOCAL-00053" summary="InsertionSort">
-      <created>1421086271233</created>
-      <option name="number" value="00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1421086271233</updated>
-    </task>
     <task id="LOCAL-00054" summary="InsertionSort">
       <created>1421088646857</created>
       <option name="number" value="00054" />
@@ -789,7 +783,13 @@
       <option name="project" value="LOCAL" />
       <updated>1421249195225</updated>
     </task>
-    <option name="localTasksCounter" value="102" />
+    <task id="LOCAL-00102" summary="Find Peak Algorithm">
+      <created>1421249197301</created>
+      <option name="number" value="00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1421249197301</updated>
+    </task>
+    <option name="localTasksCounter" value="103" />
     <servers />
   </component>
   <component name="ToolWindowManager">

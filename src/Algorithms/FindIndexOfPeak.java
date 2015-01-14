@@ -5,21 +5,21 @@ import java.util.Scanner;
  * Created by Elias on 1/12/2015.
  */
 public class FindIndexOfPeak {
-    public static int FindPeak(int[] A,int starPos,int endPos)
+    public static int FindPeak(int[] A,int startPos,int endPos)
     {
-        if(A[n/2]>= A[(n/2)-1] && A[n/2]>=A[(n/2)+1] )
-        {
-            return n/2;
-        }//If statment
-        else if (A[n/2]<= A[(n/2)-1]){
-         return FindPeak(A,(n/2)-1);
-        }
-        else if (A[n/2]<= A[(n/2)+1])
-         {
-             return FindPeak(A,(n/2)+1);
-         }
-        else return -1;
+        int curPos=startPos+(endPos-startPos)/2;
 
+        if(curPos-1 >=0 && A[curPos] < A[curPos-1])
+        {
+           return FindPeak(A,startPos,curPos-1);
+        }//If statment
+        else if (A[curPos]<= A[curPos+1]){
+         return FindPeak(A,curPos+1,endPos);
+        }
+        else
+        {
+            return curPos;
+        }
     }//FindPeak Method
 
     public static void main(String [] args){

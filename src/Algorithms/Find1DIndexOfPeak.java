@@ -34,7 +34,6 @@ public class Find1DIndexOfPeak {
             elements[j]=randomGenerator.nextInt(1000000);
         }//For J
 
-
         int answer=FindPeak(elements,0, elements.length);
 
         System.out.println(answer);

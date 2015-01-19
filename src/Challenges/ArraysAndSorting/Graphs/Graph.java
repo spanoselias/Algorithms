@@ -4,7 +4,7 @@ package Challenges.ArraysAndSorting.Graphs;
  * Created by Elias on 12/26/2014.
  */
 import java.util.*;
-public class DFS_NonRecursive {
+public class Graph {
 
     public static boolean[][] createGraph(int N)
     {

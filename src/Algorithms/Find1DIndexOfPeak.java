@@ -5,6 +5,7 @@ import java.util.Random;
 /**
  * Created by Elias on 1/12/2015.
  */
+
 public class Find1DIndexOfPeak {
     public static int FindPeak(int[] A,int startPos,int endPos)
     {

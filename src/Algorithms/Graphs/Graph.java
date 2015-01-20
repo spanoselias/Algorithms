@@ -1,4 +1,4 @@
-package Challenges.ArraysAndSorting.Graphs;
+package Algorithms.Graphs;
 
 /**
  * Created by Elias on 12/26/2014.

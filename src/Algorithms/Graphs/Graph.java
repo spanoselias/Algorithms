@@ -1,37 +1,43 @@
 package Algorithms.Graphs;
 
 /**
- * Created by Elias on 12/26/2014.
+ * Created by Elias on 1/20/2015.
  */
-import java.util.*;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.LinkedList;
+
+import java.util.Map;
+
 public class Graph {
 
-    public static boolean[][] createGraph(int N)
+    private HashMap<String,LinkedList<Integer>> graph;
+
+    public Graph()
     {
-        Scanner keyboard=new Scanner(System.in);
+        graph=new HashMap<String,LinkedList<Integer>>();
+    }//Constructor
 
-        boolean[][] graph=new boolean[N][N];
+    public void addVertex(String vertexIn)
+    {
+        graph.put(vertexIn, new LinkedList<Integer>());
+    }//Add Vertex
 
-        for(int i=0; i< N;i++ ){
-            for(int j=0; j<N; j++) {
-                System.out.println("Give true(False if is not) there are connection between Vertex" +"("+ i +","+ j+"):");
-                graph[i][j]=keyboard.nextBoolean();
-                }//For J
-            }//For I
-
-        return graph;
-    }//Function CreateGraph
-
-
-    public static void main(String [] args){
-
-        Scanner keyboard=new Scanner(System.in);
-        System.out.println("Give the dimension of tha array:");
-        int N=keyboard.nextInt();
-
-       boolean graph[][]=createGraph(N);
+    public void addNeighbor(int vertex1,int vertex2)
+    {
+        graph.get(vertex1).add(vertex2);
+    }//Add neighbor method
 
 
+    public LinkedList<Integer> getNeighbors(int vertex)
+    {
+        return graph.get(vertex);
 
-    }
-}
+    }//Get Neighbors method
+
+    public static void main(String [] args)
+    {
+
+
+    }//Main
+}//Class

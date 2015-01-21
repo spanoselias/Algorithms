@@ -25,7 +25,6 @@ public class Graph {
         graph.get(vertex1).add(vertex2);
     }//Add neighbor method
 
-
     public LinkedList<String> getNeighbors(String vertex)
     {
         return graph.get(vertex);
@@ -39,24 +38,30 @@ public class Graph {
             String vertex=entry.getKey();
             LinkedList<String> curEdges=entry.getValue();
 
-            System.out.println(vertex);
+            if( curEdges.size()>0)
+            System.out.print(vertex + ": ");
+
             for(String edge : curEdges)
             {
-                System.out.println(edge);
+                System.out.print(edge + ", ");
             }
 
+                System.out.println();
+
         }//For Statment
-
     }//Print Graph
-
     public static void main(String [] args)
     {
         Graph myGraph=new Graph();
         myGraph.addVertex("1");
         myGraph.addVertex("2");
+        myGraph.addVertex("3");
 
         myGraph.addEdge("1", "2");
         myGraph.addEdge("1", "3");
+        myGraph.addEdge("2", "3");
+        myGraph.addEdge("2", "4");
+        myGraph.addEdge("3", "4");
 
        // LinkedList<String> edge=myGraph.getNeighbors("1");
 

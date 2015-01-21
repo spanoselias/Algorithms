@@ -80,7 +80,8 @@ public class Graph {
         readTxt readgraph=new readTxt("mediumG.txt");
         readgraph.readGraphTxt(myGraph);
 
-    myGraph.printGraph();
+        myGraph.printGraph();
+        System.out.println(myGraph.degree("108"));
 
     }//Main
 }//Class

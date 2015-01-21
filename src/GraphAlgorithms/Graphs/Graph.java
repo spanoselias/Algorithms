@@ -22,13 +22,8 @@ public class Graph {
 
     public void addEdge(String vertex1,String vertex2)
     {
-        if(!graph.containsKey(vertex1))
-        {
-            graph.put(vertex1, new LinkedList<String>());
-            graph.get(vertex1).add(vertex2);
-        }
-        else
-        graph.get(vertex1).add(vertex2);
+       connectVertex(vertex1,vertex2);
+        connectVertex(vertex2,vertex1);
     }//Add neighbor method
 
     public LinkedList<String> getNeighbors(String vertex)
@@ -36,6 +31,19 @@ public class Graph {
         return graph.get(vertex);
 
     }//Get Neighbors method
+
+
+    public void connectVertex(String vertex1,String vertex2)
+    {
+        if(!graph.containsKey(vertex1))
+        {
+            graph.put(vertex1, new LinkedList<String>());
+            graph.get(vertex1).add(vertex2);
+        }
+        else
+            graph.get(vertex1).add(vertex2);
+
+    }//Connect Vertex
 
     public void printGraph()
     {

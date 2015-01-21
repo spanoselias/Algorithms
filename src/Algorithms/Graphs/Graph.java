@@ -20,7 +20,7 @@ public class Graph {
         graph.put(vertexIn, new LinkedList<String>());
     }//Add Vertex
 
-    public void addNeighbor(String vertex1,String vertex2)
+    public void addEdge(String vertex1,String vertex2)
     {
         graph.get(vertex1).add(vertex2);
     }//Add neighbor method
@@ -32,20 +32,37 @@ public class Graph {
 
     }//Get Neighbors method
 
+    public void printGraph()
+    {
+        for(Map.Entry<String,LinkedList<String>> entry:graph.entrySet())
+        {
+            String vertex=entry.getKey();
+            LinkedList<String> curEdges=entry.getValue();
+
+            System.out.println(vertex);
+            for(String edge : curEdges)
+            {
+                System.out.println(edge);
+            }
+
+        }//For Statment
+
+    }//Print Graph
+
     public static void main(String [] args)
     {
-
         Graph myGraph=new Graph();
         myGraph.addVertex("1");
         myGraph.addVertex("2");
 
-        myGraph.addNeighbor("1","2");
-        myGraph.addNeighbor("1","3");
+        myGraph.addEdge("1", "2");
+        myGraph.addEdge("1", "3");
 
-        LinkedList<String> edge=myGraph.getNeighbors("1");
+       // LinkedList<String> edge=myGraph.getNeighbors("1");
 
-        System.out.println(Arrays.toString(edge.toArray()));
+        //System.out.println(Arrays.toString(edge.toArray()));
 
+        myGraph.printGraph();
 
     }//Main
 }//Class

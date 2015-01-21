@@ -22,7 +22,7 @@ public class Graph {
 
     public void addEdge(String vertex1,String vertex2)
     {
-       connectVertex(vertex1,vertex2);
+        connectVertex(vertex1,vertex2);
         connectVertex(vertex2,vertex1);
     }//Add neighbor method
 
@@ -45,6 +45,15 @@ public class Graph {
 
     }//Connect Vertex
 
+    public  int degree(String vertex)
+    {
+        int degree=0;
+        LinkedList<String> edges= graph.get(vertex);
+        for(String edge : edges)degree++;
+
+        return degree;
+    }//Calculate Degree of a Graph
+
     public void printGraph()
     {
         for(Map.Entry<String,LinkedList<String>> entry:graph.entrySet())
@@ -59,7 +68,6 @@ public class Graph {
             {
                 System.out.print(edge + ", ");
             }
-
                 System.out.println();
 
         }//For Statment

@@ -1,9 +1,8 @@
-package Algorithms.Graphs;
+package GraphAlgorithms.Graphs;
 
 /**
  * Created by Elias on 1/20/2015.
  */
-import java.lang.reflect.Array;
 import java.util.*;
 import java.io.*;
 

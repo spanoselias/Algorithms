@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d438726-a0bd-4b5d-b825-7e23b9afd508" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GraphAlgorithms/Graphs/Graph.java" afterPath="$PROJECT_DIR$/src/GraphAlgorithms/Graphs/Graph.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="programming.iws" />
@@ -33,7 +32,7 @@
         <entry file="file://$PROJECT_DIR$/src/GraphAlgorithms/Graphs/Graph.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="566" max-vertical-offset="1292">
-              <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+              <caret line="56" column="23" selection-start-line="56" selection-start-column="23" selection-end-line="56" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#214#215#0" expanded="true" />
@@ -48,8 +47,8 @@
       <file leaf-file-name="GraphSearch.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/GraphAlgorithms/Graphs/GraphSearch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5035261" vertical-offset="0" max-vertical-offset="709">
-              <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.1438646" vertical-offset="0" max-vertical-offset="709">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -225,35 +224,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.Graph">
-    <configuration default="false" name="arraySortingChallenge4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Challenges.ArraysAndSorting.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="Challenges.ArraysAndSorting.arraySortingChallenge4" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="programming" />
-      <envs />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.GraphSearch">
     <configuration default="false" name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -602,19 +573,40 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="false" name="GraphSearch" type="Application" factoryName="Application" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="GraphAlgorithms.Graphs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="GraphAlgorithms.Graphs.GraphSearch" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="programming" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.arraySortingChallenge4" />
+      <item index="0" class="java.lang.String" itemvalue="Application.GraphSearch" />
       <item index="1" class="java.lang.String" itemvalue="Application.InsertionSort" />
       <item index="2" class="java.lang.String" itemvalue="Application.MergeSort" />
       <item index="3" class="java.lang.String" itemvalue="Application.Find1DIndexOfPeak" />
       <item index="4" class="java.lang.String" itemvalue="Application.Graph" />
     </list>
     <recent_temporary>
-      <list size="4">
+      <list size="3">
         <item index="0" class="java.lang.String" itemvalue="Application.Graph" />
         <item index="1" class="java.lang.String" itemvalue="Application.Find1DIndexOfPeak" />
         <item index="2" class="java.lang.String" itemvalue="Application.InsertionSort" />
-        <item index="3" class="java.lang.String" itemvalue="Application.InsertionSort" />
       </list>
     </recent_temporary>
   </component>
@@ -632,13 +624,7 @@
       <workItem from="1421703921162" duration="912000" />
       <workItem from="1421770738113" duration="441000" />
       <workItem from="1421771340496" duration="63000" />
-      <workItem from="1421778361635" duration="11463000" />
-    </task>
-    <task id="LOCAL-00072" summary="Find Peak Algorithm">
-      <created>1421248324423</created>
-      <option name="number" value="00072" />
-      <option name="project" value="LOCAL" />
-      <updated>1421248324423</updated>
+      <workItem from="1421778361635" duration="11569000" />
     </task>
     <task id="LOCAL-00073" summary="Find Peak Algorithm">
       <created>1421248341345</created>
@@ -928,11 +914,17 @@
       <option name="project" value="LOCAL" />
       <updated>1421849081663</updated>
     </task>
-    <option name="localTasksCounter" value="121" />
+    <task id="LOCAL-00121" summary="GraphImplementation">
+      <created>1421850429143</created>
+      <option name="number" value="00121" />
+      <option name="project" value="LOCAL" />
+      <updated>1421850429143</updated>
+    </task>
+    <option name="localTasksCounter" value="122" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13228000" />
+    <option name="totallyTimeSpent" value="13334000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1050,7 +1042,7 @@
     <entry file="file://$PROJECT_DIR$/src/GraphAlgorithms/Graphs/Graph.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="566" max-vertical-offset="1292">
-          <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+          <caret line="56" column="23" selection-start-line="56" selection-start-column="23" selection-end-line="56" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#214#215#0" expanded="true" />
@@ -1063,8 +1055,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GraphAlgorithms/Graphs/GraphSearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5035261" vertical-offset="0" max-vertical-offset="709">
-          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.1438646" vertical-offset="0" max-vertical-offset="709">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding />
         </state>
       </provider>

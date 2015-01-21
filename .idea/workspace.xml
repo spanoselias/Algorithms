@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d438726-a0bd-4b5d-b825-7e23b9afd508" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Algorithms/Graphs/graphdata.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Algorithms/Graphs/Graph.java" afterPath="$PROJECT_DIR$/src/Algorithms/Graphs/Graph.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -30,28 +29,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Graph.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Graph.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Algorithms/Graphs/Graph.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="637" max-vertical-offset="1428">
-              <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.7110482" vertical-offset="909" max-vertical-offset="1938">
+              <caret line="83" column="45" selection-start-line="83" selection-start-column="45" selection-end-line="83" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#223#224#0" expanded="true" />
-                <element signature="e#285#286#0" expanded="true" />
-                <element signature="e#348#349#0" expanded="true" />
-                <element signature="e#409#410#0" expanded="true" />
-                <element signature="e#483#484#0" expanded="true" />
-                <element signature="e#530#531#0" expanded="true" />
+                <element signature="e#242#243#0" expanded="true" />
+                <element signature="e#304#305#0" expanded="true" />
+                <element signature="e#367#368#0" expanded="true" />
+                <element signature="e#428#429#0" expanded="true" />
+                <element signature="e#502#503#0" expanded="true" />
+                <element signature="e#549#550#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="graphdata.txt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="graphdata.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Algorithms/Graphs/graphdata.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3371105" vertical-offset="0" max-vertical-offset="706">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
               <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
               <folding />
             </state>
@@ -97,8 +96,8 @@
         <option value="$PROJECT_DIR$/src/Challenges/ArraysAndSorting/Graphs/Graph.java" />
         <option value="$PROJECT_DIR$/src/Algorithms/Find1DIndexOfPeak.java" />
         <option value="$PROJECT_DIR$/src/Algorithms/Graphs/BFS.java" />
-        <option value="$PROJECT_DIR$/src/Algorithms/Graphs/Graph.java" />
         <option value="$PROJECT_DIR$/src/Algorithms/Graphs/graphdata.txt" />
+        <option value="$PROJECT_DIR$/src/Algorithms/Graphs/Graph.java" />
       </list>
     </option>
   </component>
@@ -656,13 +655,7 @@
       <workItem from="1421703921162" duration="912000" />
       <workItem from="1421770738113" duration="441000" />
       <workItem from="1421771340496" duration="63000" />
-      <workItem from="1421778361635" duration="4785000" />
-    </task>
-    <task id="LOCAL-00065" summary="Find Peak Algorithm">
-      <created>1421245505502</created>
-      <option name="number" value="00065" />
-      <option name="project" value="LOCAL" />
-      <updated>1421245505502</updated>
+      <workItem from="1421778361635" duration="5214000" />
     </task>
     <task id="LOCAL-00066" summary="Find Peak Algorithm">
       <created>1421245722474</created>
@@ -952,11 +945,17 @@
       <option name="project" value="LOCAL" />
       <updated>1421840151710</updated>
     </task>
-    <option name="localTasksCounter" value="114" />
+    <task id="LOCAL-00114" summary="GraphImplementation">
+      <created>1421840919867</created>
+      <option name="number" value="00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1421840919867</updated>
+    </task>
+    <option name="localTasksCounter" value="115" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6550000" />
+    <option name="totallyTimeSpent" value="6979000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1146,27 +1145,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Algorithms/Graphs/Graph.java">
+    <entry file="file://$PROJECT_DIR$/src/Algorithms/Graphs/graphdata.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="637" max-vertical-offset="1428">
-          <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#223#224#0" expanded="true" />
-            <element signature="e#285#286#0" expanded="true" />
-            <element signature="e#348#349#0" expanded="true" />
-            <element signature="e#409#410#0" expanded="true" />
-            <element signature="e#483#484#0" expanded="true" />
-            <element signature="e#530#531#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+          <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Algorithms/Graphs/graphdata.txt">
+    <entry file="file://$PROJECT_DIR$/src/Algorithms/Graphs/Graph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3371105" vertical-offset="0" max-vertical-offset="706">
-          <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
-          <folding />
+        <state vertical-scroll-proportion="0.7110482" vertical-offset="909" max-vertical-offset="1938">
+          <caret line="83" column="45" selection-start-line="83" selection-start-column="45" selection-end-line="83" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#242#243#0" expanded="true" />
+            <element signature="e#304#305#0" expanded="true" />
+            <element signature="e#367#368#0" expanded="true" />
+            <element signature="e#428#429#0" expanded="true" />
+            <element signature="e#502#503#0" expanded="true" />
+            <element signature="e#549#550#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

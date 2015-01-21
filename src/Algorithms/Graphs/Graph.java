@@ -24,7 +24,7 @@ public class Graph {
 
     public void addEdge(String vertex1,String vertex2)
     {
-        if(graph.get(vertex1).equals(null))
+        if(!graph.containsKey(vertex1))
         {
             graph.put(vertex1, new LinkedList<String>());
             graph.get(vertex1).add(vertex2);
@@ -63,27 +63,26 @@ public class Graph {
     {
 
         Graph myGraph=new Graph();
-        myGraph.addVertex("1");
-        myGraph.addVertex("2");
-        myGraph.addVertex("3");
-
-        myGraph.addEdge("1", "2");
-        myGraph.addEdge("1", "3");
-        myGraph.addEdge("2", "3");
-        myGraph.addEdge("2", "4");
-        myGraph.addEdge("3", "4");
+//        myGraph.addVertex("1");
+//        myGraph.addVertex("2");
+//
+//
+//        myGraph.addEdge("1", "2");
+//        myGraph.addEdge("1", "3");
+//        myGraph.addEdge("2", "3");
+//        myGraph.addEdge("2", "4");
+//        myGraph.addEdge("3", "4");
 
         // LinkedList<String> edge=myGraph.getNeighbors("1");
 
         //System.out.println(Arrays.toString(edge.toArray()));
 
-        //    myGraph.printGraph();
-
-        String line=null;
+       String line=null;
+        int counter=0;
         try {
             // FileReader reads text files in the default encoding.
-            FileReader fileReader =
-                    new FileReader("graphdata.txt");
+           FileReader fileReader =
+                    new FileReader("largeG.txt");
 
             // Always wrap FileReader in BufferedReader.
             BufferedReader bufferedReader =
@@ -91,8 +90,9 @@ public class Graph {
 
             while((line = bufferedReader.readLine()) != null) {
 
+                if (counter++>10000) break;;
               String[] edge = line.split(" ");
-                if(edge.length==2)
+                if(edge.length==2 )
                 {
                     myGraph.addEdge(edge[0],edge[1]);
 //                    System.out.println(edge[0]);
@@ -122,7 +122,7 @@ public class Graph {
         }
 
 
-
+    myGraph.printGraph();
 
     }//Main
 }//Class

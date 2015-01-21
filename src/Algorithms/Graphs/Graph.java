@@ -24,6 +24,13 @@ public class Graph {
 
     public void addEdge(String vertex1,String vertex2)
     {
+        if(graph.get(vertex1).equals(null))
+        {
+            graph.put(vertex1, new LinkedList<String>());
+            graph.get(vertex1).add(vertex2);
+        }
+
+        else
         graph.get(vertex1).add(vertex2);
     }//Add neighbor method
 
@@ -54,6 +61,24 @@ public class Graph {
     }//Print Graph
     public static void main(String [] args)
     {
+
+        Graph myGraph=new Graph();
+        myGraph.addVertex("1");
+        myGraph.addVertex("2");
+        myGraph.addVertex("3");
+
+        myGraph.addEdge("1", "2");
+        myGraph.addEdge("1", "3");
+        myGraph.addEdge("2", "3");
+        myGraph.addEdge("2", "4");
+        myGraph.addEdge("3", "4");
+
+        // LinkedList<String> edge=myGraph.getNeighbors("1");
+
+        //System.out.println(Arrays.toString(edge.toArray()));
+
+        //    myGraph.printGraph();
+
         String line=null;
         try {
             // FileReader reads text files in the default encoding.
@@ -65,9 +90,18 @@ public class Graph {
                     new BufferedReader(fileReader);
 
             while((line = bufferedReader.readLine()) != null) {
-                String[] edge = line.split("-");
-                System.out.println(edge[0]);
-                System.out.println(edge[1]);
+
+              String[] edge = line.split(" ");
+                if(edge.length==2)
+                {
+                    myGraph.addEdge(edge[0],edge[1]);
+//                    System.out.println(edge[0]);
+//                    System.out.println(edge[1]);
+                }//Check the length of a string
+
+                else
+                myGraph.addVertex(edge[0]);
+                  //  System.out.println(line);
 
             }
 
@@ -88,22 +122,7 @@ public class Graph {
         }
 
 
-        Graph myGraph=new Graph();
-        myGraph.addVertex("1");
-        myGraph.addVertex("2");
-        myGraph.addVertex("3");
 
-        myGraph.addEdge("1", "2");
-        myGraph.addEdge("1", "3");
-        myGraph.addEdge("2", "3");
-        myGraph.addEdge("2", "4");
-        myGraph.addEdge("3", "4");
-
-       // LinkedList<String> edge=myGraph.getNeighbors("1");
-
-        //System.out.println(Arrays.toString(edge.toArray()));
-
-    //    myGraph.printGraph();
 
     }//Main
 }//Class

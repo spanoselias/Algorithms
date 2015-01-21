@@ -54,9 +54,7 @@ public class Graph {
     }//Print Graph
     public static void main(String [] args)
     {
-
         String line=null;
-
         try {
             // FileReader reads text files in the default encoding.
             FileReader fileReader =
@@ -67,7 +65,10 @@ public class Graph {
                     new BufferedReader(fileReader);
 
             while((line = bufferedReader.readLine()) != null) {
-                System.out.println(line);
+                String[] edge = line.split("-");
+                System.out.println(edge[0]);
+                System.out.println(edge[1]);
+
             }
 
             // Always close files.
@@ -102,7 +103,7 @@ public class Graph {
 
         //System.out.println(Arrays.toString(edge.toArray()));
 
-        myGraph.printGraph();
+    //    myGraph.printGraph();
 
     }//Main
 }//Class

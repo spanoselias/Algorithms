@@ -6,7 +6,6 @@ package GraphAlgorithms.Graphs;
 import java.util.*;
 import java.io.*;
 
-
 public class Graph {
 
     private HashMap<String,LinkedList<String>> graph;
@@ -28,7 +27,6 @@ public class Graph {
             graph.put(vertex1, new LinkedList<String>());
             graph.get(vertex1).add(vertex2);
         }
-
         else
         graph.get(vertex1).add(vertex2);
     }//Add neighbor method
@@ -75,51 +73,8 @@ public class Graph {
         // LinkedList<String> edge=myGraph.getNeighbors("1");
 
         //System.out.println(Arrays.toString(edge.toArray()));
-
-       String line=null;
-        int counter=0;
-        try {
-            // FileReader reads text files in the default encoding.
-           FileReader fileReader =
-                    new FileReader("largeG.txt");
-
-            // Always wrap FileReader in BufferedReader.
-            BufferedReader bufferedReader =
-                    new BufferedReader(fileReader);
-
-            while((line = bufferedReader.readLine()) != null) {
-
-                if (counter++>10000) break;;
-              String[] edge = line.split(" ");
-                if(edge.length==2 )
-                {
-                    myGraph.addEdge(edge[0],edge[1]);
-//                    System.out.println(edge[0]);
-//                    System.out.println(edge[1]);
-                }//Check the length of a string
-
-                else
-                myGraph.addVertex(edge[0]);
-                  //  System.out.println(line);
-
-            }
-
-            // Always close files.
-            bufferedReader.close();
-        }
-        catch(FileNotFoundException ex) {
-            System.out.println(
-                    "Unable to open file '" +
-                            "graphdata.txt" + "'");
-        }
-        catch(IOException ex) {
-            System.out.println(
-                    "Error reading file '"
-                            + "graphdata.txt" + "'");
-            // Or we could just do this:
-            // ex.printStackTrace();
-        }
-
+        readTxt readgraph=new readTxt("mediumG.txt");
+        readgraph.readGraphTxt(myGraph);
 
     myGraph.printGraph();
 

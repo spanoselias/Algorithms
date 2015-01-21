@@ -56,23 +56,11 @@ public class Graph {
 
         }//For Statment
     }//Print Graph
+
     public static void main(String [] args)
     {
-
         Graph myGraph=new Graph();
-//        myGraph.addVertex("1");
-//        myGraph.addVertex("2");
-//
-//
-//        myGraph.addEdge("1", "2");
-//        myGraph.addEdge("1", "3");
-//        myGraph.addEdge("2", "3");
-//        myGraph.addEdge("2", "4");
-//        myGraph.addEdge("3", "4");
 
-        // LinkedList<String> edge=myGraph.getNeighbors("1");
-
-        //System.out.println(Arrays.toString(edge.toArray()));
         readTxt readgraph=new readTxt("mediumG.txt");
         readgraph.readGraphTxt(myGraph);
 

@@ -45,6 +45,12 @@ public class Graph {
 
     }//Connect Vertex
 
+
+    public int getSize()
+    {
+        return graph.size();
+    }//Get size method
+
     public  int degree(int vertex)
     {
         int degree=0;
@@ -80,8 +86,9 @@ public class Graph {
         readTxt readgraph=new readTxt("mediumG.txt");
         readgraph.readGraphTxt(myGraph);
 
-        myGraph.printGraph();
 
+        myGraph.printGraph();
+        System.out.println(myGraph.getSize());
 
     }//Main
 }//Class

@@ -7,10 +7,16 @@ import java.util.*;
 
 public class GraphSearch {
 
-   public void bfs(Graph mygraph,String s)
+   public void bfs(Graph mygraph,int s)
    {
 
-   Queue<String> myQueue=new LinkedList<String>();
+       int size=mygraph.getSize();
+       boolean marked[]=new boolean[size];
+
+       for(int i=0; i<size; i++ ){marked[i]=false;}
+
+       Queue<Integer> myQueue=new LinkedList<Integer>();
+       myQueue.add(s);
 
 
 

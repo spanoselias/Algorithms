@@ -4,6 +4,7 @@ package GraphAlgorithms.Graphs;
  * Created by Elias on 12/26/2014.
  */
 import java.util.*;
+import java.math.*;
 
 public class GraphSearch {
 
@@ -14,6 +15,7 @@ public class GraphSearch {
        boolean visited[]=new boolean[size+1];
        Queue<Integer> myQueue=new LinkedList<Integer>();
        int prev[]=new int[size+1];
+       for(int i=0; i< prev.length; i++){prev[i]=-1;}
 
        int level=1;
        for(int i=0; i<=size; i++ ){visited[i]=false;}
@@ -35,10 +37,10 @@ public class GraphSearch {
                 };
 
            }
-
-
        }//While statment
 
+      // System.out.println(7);
+        printShortedPath(s,7,prev);
 
 //     for(int i=0; i<prev.length; i++)
 //     {
@@ -50,7 +52,7 @@ public class GraphSearch {
 
     public void printShortedPath(int s,int v,int prev[])
     {
-        if(prev[v]!=s){printShortedPath(s,prev[v],prev);}
+        if(prev[v]!= -1){printShortedPath(s,prev[v],prev);}
         System.out.println(prev[v]);
 
     }//PrintShorthestPath Method

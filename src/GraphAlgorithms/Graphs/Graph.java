@@ -92,6 +92,8 @@ public class Graph {
         myGraph.addEdge(4,5);
 
         myGraph.printGraph();
+      GraphSearch search=new GraphSearch();
+        search.bfs(myGraph,1);
       //  System.out.println(myGraph.getSize());
 
     }//Main

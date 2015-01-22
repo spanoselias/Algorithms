@@ -7,7 +7,7 @@ import java.util.*;
 
 public class GraphSearch {
 
-   public void bfs(Graph mygraph,int s)
+   public Queue<Integer> bfs(Graph mygraph,int s)
    {
 
        int size=mygraph.getSize();
@@ -39,10 +39,10 @@ public class GraphSearch {
            }
 
 
-       }
+       }//While statment
 
 
-
+    return path;
 
    }//Breadth-First-Search
 

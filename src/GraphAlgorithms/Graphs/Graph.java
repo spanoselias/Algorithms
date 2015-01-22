@@ -91,13 +91,13 @@ public class Graph {
         myGraph.addEdge(3,4);
         myGraph.addEdge(4,5);
 
-        myGraph.printGraph();
-      GraphSearch search=new GraphSearch();
-       Queue<Integer>path=new LinkedList<Integer>();
-        path= search.bfs(myGraph, 1);
+     //   myGraph.printGraph();
+        GraphSearch search=new GraphSearch();
+        Queue<Integer>path=new LinkedList<Integer>();
+      search.bfs(myGraph, 1);
 
 
-        System.out.println(path);
+     //   System.out.println(path);
       // System.out.println(myGraph.getSize());
 
     }//Main

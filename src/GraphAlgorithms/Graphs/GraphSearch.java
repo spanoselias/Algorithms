@@ -7,7 +7,7 @@ import java.util.*;
 
 public class GraphSearch {
 
-   public Queue<Integer> bfs(Graph mygraph,int s)
+   public void bfs(Graph mygraph,int s)
    {
 
        int size=mygraph.getSize();
@@ -29,7 +29,7 @@ public class GraphSearch {
            for(int edge:edges)
            {
                 if(!visited[edge]){
-                   prev[edge]=v;
+                    prev[edge]=v;
                     myQueue.add(edge);
                     visited[edge]=true;
                 };
@@ -40,7 +40,11 @@ public class GraphSearch {
        }//While statment
 
 
-    return path;
+     for(int i=0; i<prev.length; i++)
+     {
+         System.out.println("[ " + i + " ] : " + prev[i] );
+
+     }
 
    }//Breadth-First-Search
 

@@ -93,8 +93,12 @@ public class Graph {
 
         myGraph.printGraph();
       GraphSearch search=new GraphSearch();
-        search.bfs(myGraph,1);
-      //  System.out.println(myGraph.getSize());
+       Queue<Integer>path=new LinkedList<Integer>();
+        path= search.bfs(myGraph, 1);
+
+
+        System.out.println(path);
+      // System.out.println(myGraph.getSize());
 
     }//Main
 }//Class

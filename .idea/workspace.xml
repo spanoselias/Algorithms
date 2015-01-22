@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d438726-a0bd-4b5d-b825-7e23b9afd508" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GraphAlgorithms/Graphs/Graph.java" afterPath="$PROJECT_DIR$/src/GraphAlgorithms/Graphs/Graph.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GraphAlgorithms/Graphs/GraphSearch.java" afterPath="$PROJECT_DIR$/src/GraphAlgorithms/Graphs/GraphSearch.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -30,10 +29,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Graph.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Graph.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GraphAlgorithms/Graphs/Graph.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.1169188" vertical-offset="837" max-vertical-offset="1768">
+            <state vertical-scroll-proportion="0.0" vertical-offset="837" max-vertical-offset="1768">
               <caret line="103" column="8" selection-start-line="103" selection-start-column="8" selection-end-line="103" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -45,14 +44,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GraphSearch.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="GraphSearch.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/GraphAlgorithms/Graphs/GraphSearch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="47" max-vertical-offset="1054">
-              <caret line="13" column="43" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
+            <state vertical-scroll-proportion="0.37964237" vertical-offset="81" max-vertical-offset="1020">
+              <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
               <folding>
                 <element signature="e#306#315#0" expanded="true" />
-                <element signature="e#360#369#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -102,8 +100,8 @@
         <option value="$PROJECT_DIR$/src/Algorithms/Graphs/Graph.java" />
         <option value="$PROJECT_DIR$/src/GraphAlgorithms/Graphs/BFS.java" />
         <option value="$PROJECT_DIR$/src/GraphAlgorithms/Graphs/readTxt.java" />
-        <option value="$PROJECT_DIR$/src/GraphAlgorithms/Graphs/GraphSearch.java" />
         <option value="$PROJECT_DIR$/src/GraphAlgorithms/Graphs/Graph.java" />
+        <option value="$PROJECT_DIR$/src/GraphAlgorithms/Graphs/GraphSearch.java" />
       </list>
     </option>
   </component>
@@ -621,13 +619,7 @@
       <workItem from="1421770738113" duration="441000" />
       <workItem from="1421771340496" duration="63000" />
       <workItem from="1421778361635" duration="18122000" />
-      <workItem from="1421936719426" duration="5082000" />
-    </task>
-    <task id="LOCAL-00084" summary="Find Peak Algorithm">
-      <created>1421249144718</created>
-      <option name="number" value="00084" />
-      <option name="project" value="LOCAL" />
-      <updated>1421249144718</updated>
+      <workItem from="1421936719426" duration="5799000" />
     </task>
     <task id="LOCAL-00085" summary="Find Peak Algorithm">
       <created>1421249147756</created>
@@ -917,11 +909,17 @@
       <option name="project" value="LOCAL" />
       <updated>1421941669886</updated>
     </task>
-    <option name="localTasksCounter" value="133" />
+    <task id="LOCAL-00133" summary="Bfs Graph">
+      <created>1421944825443</created>
+      <option name="number" value="00133" />
+      <option name="project" value="LOCAL" />
+      <updated>1421944825443</updated>
+    </task>
+    <option name="localTasksCounter" value="134" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24969000" />
+    <option name="totallyTimeSpent" value="25686000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1028,7 +1026,6 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#306#315#0" expanded="true" />
-            <element signature="e#360#369#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1084,26 +1081,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GraphAlgorithms/Graphs/GraphSearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="47" max-vertical-offset="1054">
-          <caret line="13" column="43" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
-          <folding>
-            <element signature="e#306#315#0" expanded="true" />
-            <element signature="e#360#369#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/GraphAlgorithms/Graphs/Graph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.1169188" vertical-offset="837" max-vertical-offset="1768">
+        <state vertical-scroll-proportion="0.0" vertical-offset="837" max-vertical-offset="1768">
           <caret line="103" column="8" selection-start-line="103" selection-start-column="8" selection-end-line="103" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1047#1048#0" expanded="true" />
             <element signature="e#1082#1083#0" expanded="true" />
             <element signature="e#2275#2284#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GraphAlgorithms/Graphs/GraphSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.37964237" vertical-offset="81" max-vertical-offset="1020">
+          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+          <folding>
+            <element signature="e#306#315#0" expanded="true" />
           </folding>
         </state>
       </provider>

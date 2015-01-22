@@ -13,15 +13,13 @@ public class GraphSearch {
        int size=mygraph.getSize();
        boolean visited[]=new boolean[size+1];
        Queue<Integer> myQueue=new LinkedList<Integer>();
-       Queue<Integer> path=new LinkedList<Integer>();
+       int prev[]=new int[size+1];
 
        int level=1;
-
        for(int i=0; i<=size; i++ ){visited[i]=false;}
 
 
        myQueue.add(s);
-       path.add(s);
        visited[s]=true ;
 
        while(!myQueue.isEmpty())
@@ -31,7 +29,7 @@ public class GraphSearch {
            for(int edge:edges)
            {
                 if(!visited[edge]){
-                    path.add(edge);
+                   prev[edge]=v;
                     myQueue.add(edge);
                     visited[edge]=true;
                 };

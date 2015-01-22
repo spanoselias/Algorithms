@@ -37,13 +37,13 @@ public class readTxt {
             String[] edge = line.split(" ");
             if(edge.length==2 )
             {
-                myGraph.addEdge(edge[0],edge[1]);
+                myGraph.addEdge(Integer.parseInt(edge[0]),Integer.parseInt(edge[1]));
 //                    System.out.println(edge[0]);
 //                    System.out.println(edge[1]);
             }//Check the length of a string
 
             else
-                myGraph.addVertex(edge[0]);
+                myGraph.addVertex(Integer.parseInt(edge[0]));
             //  System.out.println(line);
 
         }

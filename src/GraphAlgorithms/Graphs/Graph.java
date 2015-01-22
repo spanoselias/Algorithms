@@ -8,36 +8,36 @@ import java.io.*;
 
 public class Graph {
 
-    private HashMap<String,LinkedList<String>> graph;
+    private SortedMap<Integer,LinkedList<Integer>> graph;
 
     public Graph()
     {
-        graph=new HashMap<String,LinkedList<String>>();
+        graph=new TreeMap<Integer, LinkedList<Integer>>();
     }//Constructor
 
-    public void addVertex(String vertexIn)
+    public void addVertex(int vertexIn)
     {
-        graph.put(vertexIn, new LinkedList<String>());
+        graph.put(vertexIn, new LinkedList<Integer>());
     }//Add Vertex
 
-    public void addEdge(String vertex1,String vertex2)
+    public void addEdge(int vertex1,int vertex2)
     {
         connectVertex(vertex1,vertex2);
         connectVertex(vertex2,vertex1);
     }//Add neighbor method
 
-    public LinkedList<String> getNeighbors(String vertex)
+    public LinkedList<Integer> getNeighbors(int vertex)
     {
         return graph.get(vertex);
 
     }//Get Neighbors method
 
 
-    public void connectVertex(String vertex1,String vertex2)
+    public void connectVertex(int vertex1,int vertex2)
     {
         if(!graph.containsKey(vertex1))
         {
-            graph.put(vertex1, new LinkedList<String>());
+            graph.put(vertex1, new LinkedList<Integer>());
             graph.get(vertex1).add(vertex2);
         }
         else
@@ -45,26 +45,26 @@ public class Graph {
 
     }//Connect Vertex
 
-    public  int degree(String vertex)
+    public  int degree(int vertex)
     {
         int degree=0;
-        LinkedList<String> edges= graph.get(vertex);
-        for(String edge : edges)degree++;
+        LinkedList<Integer> edges= graph.get(vertex);
+        for(Integer edge : edges)degree++;
 
         return degree;
     }//Calculate Degree of a Graph
 
     public void printGraph()
     {
-        for(Map.Entry<String,LinkedList<String>> entry:graph.entrySet())
+        for(Map.Entry<Integer,LinkedList<Integer>> entry:graph.entrySet())
         {
-            String vertex=entry.getKey();
-            LinkedList<String> curEdges=entry.getValue();
+            Integer vertex=entry.getKey();
+            LinkedList<Integer> curEdges=entry.getValue();
 
             if( curEdges.size()>0)
             System.out.print(vertex + ": ");
 
-            for(String edge : curEdges)
+            for(Integer edge : curEdges)
             {
                 System.out.print(edge + ", ");
             }
@@ -81,7 +81,7 @@ public class Graph {
         readgraph.readGraphTxt(myGraph);
 
         myGraph.printGraph();
-        System.out.println(myGraph.degree("108"));
+
 
     }//Main
 }//Class

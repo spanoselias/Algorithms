@@ -7,10 +7,11 @@ import java.util.*;
 
 public class GraphSearch {
 
-   public void bfs(Graph mygraph)
+   public void bfs(Graph mygraph,String s)
    {
 
    Queue<String> myQueue=new LinkedList<String>();
+
 
 
 

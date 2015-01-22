@@ -11,9 +11,9 @@ public class GraphSearch {
    {
 
        int size=mygraph.getSize();
-       boolean marked[]=new boolean[size];
+       boolean visited[]=new boolean[size];
 
-       for(int i=0; i<size; i++ ){marked[i]=false;}
+       for(int i=0; i<size; i++ ){visited[i]=false;}
 
        Queue<Integer> myQueue=new LinkedList<Integer>();
        myQueue.add(s);

@@ -83,12 +83,16 @@ public class Graph {
     {
         Graph myGraph=new Graph();
 
-        readTxt readgraph=new readTxt("mediumG.txt");
-        readgraph.readGraphTxt(myGraph);
-
+       // readTxt readgraph=new readTxt("mediumG.txt");
+        //readgraph.readGraphTxt(myGraph);
+        myGraph.addEdge(1,2);
+        myGraph.addEdge(1,3);
+        myGraph.addEdge(2,5);
+        myGraph.addEdge(3,4);
+        myGraph.addEdge(4,5);
 
         myGraph.printGraph();
-        System.out.println(myGraph.getSize());
+      //  System.out.println(myGraph.getSize());
 
     }//Main
 }//Class

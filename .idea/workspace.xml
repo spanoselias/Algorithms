@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d438726-a0bd-4b5d-b825-7e23b9afd508" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GraphAlgorithms/Graphs/Graph.java" afterPath="$PROJECT_DIR$/src/GraphAlgorithms/Graphs/Graph.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GraphAlgorithms/Graphs/GraphSearch.java" afterPath="$PROJECT_DIR$/src/GraphAlgorithms/Graphs/GraphSearch.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GraphAlgorithms/Graphs/readTxt.java" afterPath="$PROJECT_DIR$/src/GraphAlgorithms/Graphs/readTxt.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="programming.iws" />
@@ -47,10 +44,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GraphSearch.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="GraphSearch.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/GraphAlgorithms/Graphs/GraphSearch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
+            <state vertical-scroll-proportion="0.37833828" vertical-offset="0" max-vertical-offset="674">
               <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding>
                 <element signature="e#213#221#0" expanded="true" />
@@ -59,10 +56,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="readTxt.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="readTxt.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GraphAlgorithms/Graphs/readTxt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.72255194" vertical-offset="601" max-vertical-offset="1275">
+            <state vertical-scroll-proportion="0.0" vertical-offset="346" max-vertical-offset="1275">
               <caret line="64" column="5" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -629,13 +626,7 @@
       <workItem from="1421703921162" duration="912000" />
       <workItem from="1421770738113" duration="441000" />
       <workItem from="1421771340496" duration="63000" />
-      <workItem from="1421778361635" duration="17941000" />
-    </task>
-    <task id="LOCAL-00078" summary="Find Peak Algorithm">
-      <created>1421249115334</created>
-      <option name="number" value="00078" />
-      <option name="project" value="LOCAL" />
-      <updated>1421249115334</updated>
+      <workItem from="1421778361635" duration="18106000" />
     </task>
     <task id="LOCAL-00079" summary="Find Peak Algorithm">
       <created>1421249125349</created>
@@ -925,11 +916,17 @@
       <option name="project" value="LOCAL" />
       <updated>1421874375355</updated>
     </task>
-    <option name="localTasksCounter" value="127" />
+    <task id="LOCAL-00127" summary="Graph methods">
+      <created>1421936446206</created>
+      <option name="number" value="00127" />
+      <option name="project" value="LOCAL" />
+      <updated>1421936446206</updated>
+    </task>
+    <option name="localTasksCounter" value="128" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19706000" />
+    <option name="totallyTimeSpent" value="19871000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1034,16 +1031,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GraphAlgorithms/Graphs/GraphSearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="e#213#221#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/GraphAlgorithms/Graphs/Graph.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="973" max-vertical-offset="1581">
@@ -1060,12 +1047,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GraphAlgorithms/Graphs/readTxt.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.72255194" vertical-offset="601" max-vertical-offset="1275">
+        <state vertical-scroll-proportion="0.0" vertical-offset="346" max-vertical-offset="1275">
           <caret line="64" column="5" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#286#287#0" expanded="true" />
             <element signature="e#318#319#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GraphAlgorithms/Graphs/GraphSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.37833828" vertical-offset="0" max-vertical-offset="674">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="e#213#221#0" expanded="true" />
           </folding>
         </state>
       </provider>

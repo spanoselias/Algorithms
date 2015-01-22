@@ -40,15 +40,20 @@ public class GraphSearch {
        }//While statment
 
 
-     for(int i=0; i<prev.length; i++)
-     {
-         System.out.println("[ " + i + " ] : " + prev[i] );
-
-     }
+//     for(int i=0; i<prev.length; i++)
+//     {
+//         System.out.println("[ " + i + " ] : " + prev[i] );
+//
+//     }
 
    }//Breadth-First-Search
 
+    public void printShortedPath(int s,int v,int prev[])
+    {
+        if(prev[v]!=s){printShortedPath(s,prev[v],prev);}
+        System.out.println(prev[v]);
 
+    }//PrintShorthestPath Method
 
     public static void main(String [] args){
 

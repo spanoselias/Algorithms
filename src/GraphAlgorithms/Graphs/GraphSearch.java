@@ -40,7 +40,7 @@ public class GraphSearch {
        }//While statment
 
       // System.out.println(7);
-        printShortedPath(s,7,prev);
+       printShortedPath(s, 7, prev);
 
 //     for(int i=0; i<prev.length; i++)
 //     {
@@ -50,10 +50,18 @@ public class GraphSearch {
 
    }//Breadth-First-Search
 
-    public void printShortedPath(int s,int v,int prev[])
+   public void printShortedPath(int s,int v,int prev[])
+    {
+        //System.out.print("["+ v);
+        shortedPath(s, v, prev);
+        //System.out.print(" ]");
+
+    }//PrintShorthestPath Method
+
+    private void shortedPath(int s,int v,int prev[])
     {
         if(prev[v]!= -1){printShortedPath(s,prev[v],prev);}
-        System.out.println(prev[v]);
+        System.out.print(" , " + prev[v]);
 
     }//PrintShorthestPath Method
 

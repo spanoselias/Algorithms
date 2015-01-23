@@ -4,7 +4,6 @@ package GraphAlgorithms.Graphs;
  * Created by Elias on 1/20/2015.
  */
 import java.util.*;
-import java.io.*;
 
 public class Graph {
 
@@ -83,22 +82,22 @@ public class Graph {
     {
         Graph myGraph=new Graph();
 
-       // readTxt readgraph=new readTxt("mediumG.txt");
-        //readgraph.readGraphTxt(myGraph);
-        myGraph.addEdge(1,2);
-        myGraph.addEdge(1,4);
-        myGraph.addEdge(1,3);
-        myGraph.addEdge(2,4);
-        myGraph.addEdge(3,5);
-        myGraph.addEdge(5,6);
-        myGraph.addEdge(4,6);
-        myGraph.addEdge(4,7);
-        myGraph.addEdge(6,7);
+      readTxt readgraph=new readTxt("mediumG.txt");
+      readgraph.readGraphTxt(myGraph);
+//        myGraph.addEdge(1,2);
+//        myGraph.addEdge(1,4);
+//        myGraph.addEdge(1,3);
+//        myGraph.addEdge(2,4);
+//        myGraph.addEdge(3,5);
+//        myGraph.addEdge(5,6);
+//        myGraph.addEdge(4,6);
+//        myGraph.addEdge(4,7);
+//        myGraph.addEdge(6,7);
 
      //   myGraph.printGraph();
-        GraphSearch search=new GraphSearch();
+        BfsSearch search=new BfsSearch();
         Queue<Integer>path=new LinkedList<Integer>();
-      search.bfs(myGraph, 1);
+      search.bfs(myGraph,1);
 
 
      //   System.out.println(path);

@@ -6,16 +6,14 @@ package GraphAlgorithms.Graphs;
 import java.util.*;
 import java.math.*;
 
-public class GraphSearch {
-
+public class BfsSearch {
    public void bfs(Graph mygraph,int s)
    {
-
        int size=mygraph.getSize();
        boolean visited[]=new boolean[size+1];
        Queue<Integer> myQueue=new LinkedList<Integer>();
        int prev[]=new int[size+1];
-       for(int i=0; i< prev.length; i++){prev[i]=-1;}
+     //  for(int i=0; i< prev.length; i++){prev[i]=-1;}
 
        int level=1;
        for(int i=0; i<=size; i++ ){visited[i]=false;}
@@ -34,13 +32,13 @@ public class GraphSearch {
                     prev[edge]=v;
                     myQueue.add(edge);
                     visited[edge]=true;
-                };
-
+                }
            }
        }//While statment
 
-      // System.out.println(7);
-       printShortedPath(s, 7, prev);
+      System.out.print("[ ");
+       printShortedPath(s, 225, prev);
+       System.out.print( 225 + "]");
 
 //     for(int i=0; i<prev.length; i++)
 //     {
@@ -52,7 +50,7 @@ public class GraphSearch {
 
    public void printShortedPath(int s,int v,int prev[])
     {
-        //System.out.print("["+ v);
+      //System.out.print("["+ v);
         shortedPath(s, v, prev);
         //System.out.print(" ]");
 
@@ -60,8 +58,8 @@ public class GraphSearch {
 
     private void shortedPath(int s,int v,int prev[])
     {
-        if(prev[v]!= -1){printShortedPath(s,prev[v],prev);}
-        System.out.print(" , " + prev[v]);
+        if(prev[v]!= s){printShortedPath(s,prev[v],prev);}
+        System.out.print(prev[v] + " , ");
 
     }//PrintShorthestPath Method
 

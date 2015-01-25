@@ -19,7 +19,6 @@ public class dfsSearch {
 
     public void dfs(int s)
     {
-
         System.out.println(s);
         marked[s]=true;
         LinkedList<Integer> edges=myGraph.getNeighbors(s);
@@ -33,5 +32,6 @@ public class dfsSearch {
         }
 
     }
+
 
 }

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d438726-a0bd-4b5d-b825-7e23b9afd508" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GraphAlgorithms/Graphs/Graph.java" afterPath="$PROJECT_DIR$/src/GraphAlgorithms/Graphs/Graph.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GraphAlgorithms/Graphs/dfsSearch.java" afterPath="$PROJECT_DIR$/src/GraphAlgorithms/Graphs/dfsSearch.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -29,11 +30,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Graph.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Graph.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/GraphAlgorithms/Graphs/Graph.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="1768">
-              <caret line="36" column="39" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
+            <state vertical-scroll-proportion="0.5005441" vertical-offset="849" max-vertical-offset="1836">
+              <caret line="86" column="9" selection-start-line="86" selection-start-column="9" selection-end-line="86" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -51,11 +52,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dfsSearch.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="dfsSearch.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GraphAlgorithms/Graphs/dfsSearch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6474429" vertical-offset="0" max-vertical-offset="919">
-              <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731">
+              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -116,9 +117,9 @@
         <option value="$PROJECT_DIR$/src/GraphAlgorithms/Graphs/BFS.java" />
         <option value="$PROJECT_DIR$/src/GraphAlgorithms/Graphs/readTxt.java" />
         <option value="$PROJECT_DIR$/src/GraphAlgorithms/Graphs/GraphSearch.java" />
-        <option value="$PROJECT_DIR$/src/GraphAlgorithms/Graphs/Graph.java" />
         <option value="$PROJECT_DIR$/src/GraphAlgorithms/Graphs/BfsSearch.java" />
         <option value="$PROJECT_DIR$/src/GraphAlgorithms/Graphs/dfsSearch.java" />
+        <option value="$PROJECT_DIR$/src/GraphAlgorithms/Graphs/Graph.java" />
       </list>
     </option>
   </component>
@@ -641,13 +642,7 @@
       <workItem from="1421778361635" duration="18122000" />
       <workItem from="1421936719426" duration="11930000" />
       <workItem from="1422180679400" duration="237000" />
-      <workItem from="1422204641091" duration="1424000" />
-    </task>
-    <task id="LOCAL-00091" summary="Find Peak Algorithm">
-      <created>1421249166971</created>
-      <option name="number" value="00091" />
-      <option name="project" value="LOCAL" />
-      <updated>1421249166971</updated>
+      <workItem from="1422204641091" duration="1994000" />
     </task>
     <task id="LOCAL-00092" summary="Find Peak Algorithm">
       <created>1421249169725</created>
@@ -937,11 +932,17 @@
       <option name="project" value="LOCAL" />
       <updated>1422045930090</updated>
     </task>
-    <option name="localTasksCounter" value="140" />
+    <task id="LOCAL-00140" summary="Bfs Graph">
+      <created>1422206077306</created>
+      <option name="number" value="00140" />
+      <option name="project" value="LOCAL" />
+      <updated>1422206077309</updated>
+    </task>
+    <option name="localTasksCounter" value="141" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33478000" />
+    <option name="totallyTimeSpent" value="34048000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -950,6 +951,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32946146" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284055" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -970,7 +972,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20274551" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284055" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22703274" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32946146" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1037,7 +1038,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/GraphAlgorithms/Graphs/Graph.java</url>
-          <line>105</line>
+          <line>109</line>
           <properties />
           <option name="timeStamp" value="39" />
         </line-breakpoint>
@@ -1205,10 +1206,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GraphAlgorithms/Graphs/Graph.java">
+    <entry file="file://$PROJECT_DIR$/src/GraphAlgorithms/Graphs/dfsSearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="1768">
-          <caret line="36" column="39" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1223,10 +1224,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GraphAlgorithms/Graphs/dfsSearch.java">
+    <entry file="file://$PROJECT_DIR$/src/GraphAlgorithms/Graphs/Graph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6474429" vertical-offset="0" max-vertical-offset="919">
-          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.5005441" vertical-offset="849" max-vertical-offset="1836">
+          <caret line="86" column="9" selection-start-line="86" selection-start-column="9" selection-end-line="86" selection-end-column="9" />
           <folding />
         </state>
       </provider>

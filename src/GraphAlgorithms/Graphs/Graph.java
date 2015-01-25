@@ -85,21 +85,16 @@ public class Graph {
    //   readTxt readgraph=new readTxt("mediumG.txt");
      // readgraph.readGraphTxt(myGraph);
          myGraph.addEdge(0,1);
-         myGraph.addEdge(1,0);
          myGraph.addEdge(1,2);
          myGraph.addEdge(1,3);
-         myGraph.addEdge(2,1);
          myGraph.addEdge(2,3);
-         myGraph.addEdge(3,1);
-         myGraph.addEdge(3,2);
          myGraph.addEdge(3,4);
-         myGraph.addEdge(4,3);
 
-
-     //   myGraph.printGraph();
+      // myGraph.printGraph();
         //BfsSearch search=new BfsSearch();
 
-        dfsSearch dfs=new dfsSearch()
+        dfsSearch dfs=new dfsSearch(myGraph);
+        dfs.dfs(0);
         //Queue<Integer>path=new LinkedList<Integer>();
       //search.bfs(myGraph,1);
 

@@ -10,7 +10,7 @@ public class dfsSearch {
     private int edgeTo[];
     Graph myGraph;
 
-    dfsSearch(Graph g,int s)
+    dfsSearch(Graph g)
     {
         marked=new boolean[g.getSize()];
         for(int i=0; i<marked.length; i++)marked[i]=false;
@@ -26,6 +26,7 @@ public class dfsSearch {
         {
             if (!marked[edge])
             {
+
                 dfs(edge);
             }
 

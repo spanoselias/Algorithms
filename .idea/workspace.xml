@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d438726-a0bd-4b5d-b825-7e23b9afd508" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/GraphAlgorithms/Graphs/runGraph.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GraphAlgorithms/Graphs/Graph.java" afterPath="$PROJECT_DIR$/src/GraphAlgorithms/Graphs/Graph.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GraphAlgorithms/Graphs/dfsSearch.java" afterPath="$PROJECT_DIR$/src/GraphAlgorithms/Graphs/dfsSearch.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mygraph.txt" afterPath="$PROJECT_DIR$/mygraph.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GraphAlgorithms/Graphs/runGraph.java" afterPath="$PROJECT_DIR$/src/GraphAlgorithms/Graphs/runGraph.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="programming.iws" />
@@ -654,13 +651,7 @@
       <workItem from="1421778361635" duration="18122000" />
       <workItem from="1421936719426" duration="11930000" />
       <workItem from="1422180679400" duration="237000" />
-      <workItem from="1422204641091" duration="4339000" />
-    </task>
-    <task id="LOCAL-00095" summary="Find Peak Algorithm">
-      <created>1421249180778</created>
-      <option name="number" value="00095" />
-      <option name="project" value="LOCAL" />
-      <updated>1421249180778</updated>
+      <workItem from="1422204641091" duration="4347000" />
     </task>
     <task id="LOCAL-00096" summary="Find Peak Algorithm">
       <created>1421249184108</created>
@@ -950,11 +941,17 @@
       <option name="project" value="LOCAL" />
       <updated>1422208248979</updated>
     </task>
-    <option name="localTasksCounter" value="144" />
+    <task id="LOCAL-00144" summary="Bfs Graph">
+      <created>1422209226392</created>
+      <option name="number" value="00144" />
+      <option name="project" value="LOCAL" />
+      <updated>1422209226393</updated>
+    </task>
+    <option name="localTasksCounter" value="145" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36393000" />
+    <option name="totallyTimeSpent" value="36401000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />

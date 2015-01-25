@@ -26,13 +26,9 @@ public class dfsSearch {
         {
             if (!marked[edge])
             {
-
                 dfs(edge);
             }
-
         }
-
     }
-
 
 }

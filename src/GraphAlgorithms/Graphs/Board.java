@@ -10,7 +10,12 @@ public class Board {
 
     Board(int tiles[][])
     {
-        board=tiles;
+        int size=tiles[0].length;
+        board=new int[size][size];
+
+        for(int i=0; i<tiles[0].length; i++) {
+            System.arraycopy(tiles[i], 0, this.board[i], 0, size);
+        }
     }
 
  public int manhattan()
@@ -48,15 +53,18 @@ public boolean equals(Board curBoard) {
 }
 
 
-   public String toString(){
+    public  String toString(){
 
+        String repres="";
        for (int i = 0; i < board[0].length; i++) {
            for (int j = 0; j < board[1].length; j++) {
 
-               System.out.print(board[i][j]+ " ");
+              repres +=(board[i][j]+ " ");
            }
-           System.out.println();
+           repres +="\n";
              }
+
+           return repres;
    }//toString Function
 
 
@@ -68,4 +76,4 @@ public boolean equals(Board curBoard) {
 
 
 
-}
+

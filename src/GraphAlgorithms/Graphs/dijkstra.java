@@ -23,7 +23,6 @@ public class dijkstra {
     }
 
 
-
     public static void main(String [] args)
     {
         PriorityQueue<Node> priorityq=new PriorityQueue<Node>(11, new Comparator<Node>() {

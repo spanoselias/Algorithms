@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d438726-a0bd-4b5d-b825-7e23b9afd508" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/GraphAlgorithms/Graphs/Board.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GraphAlgorithms/Graphs/dijkstra.java" afterPath="$PROJECT_DIR$/src/GraphAlgorithms/Graphs/dijkstra.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GraphAlgorithms/Graphs/Board.java" afterPath="$PROJECT_DIR$/src/GraphAlgorithms/Graphs/Board.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="programming.iws" />
@@ -33,11 +32,11 @@
       <file leaf-file-name="Board.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/GraphAlgorithms/Graphs/Board.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7513812" vertical-offset="0" max-vertical-offset="714">
-              <caret line="24" column="15" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
+            <state vertical-scroll-proportion="0.1878453" vertical-offset="0" max-vertical-offset="765">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding>
-                <element signature="e#144#145#0" expanded="true" />
-                <element signature="e#171#172#0" expanded="true" />
+                <element signature="e#165#166#0" expanded="true" />
+                <element signature="e#192#193#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -537,12 +536,6 @@
       <workItem from="1422180679400" duration="237000" />
       <workItem from="1422204641091" duration="5804000" />
     </task>
-    <task id="LOCAL-00099" summary="Find Peak Algorithm">
-      <created>1421249191164</created>
-      <option name="number" value="00099" />
-      <option name="project" value="LOCAL" />
-      <updated>1421249191164</updated>
-    </task>
     <task id="LOCAL-00100" summary="Find Peak Algorithm">
       <created>1421249193198</created>
       <option name="number" value="00100" />
@@ -831,7 +824,13 @@
       <option name="project" value="LOCAL" />
       <updated>1423157418492</updated>
     </task>
-    <option name="localTasksCounter" value="148" />
+    <task id="LOCAL-00148" summary="8-Puzzle">
+      <created>1423333849466</created>
+      <option name="number" value="00148" />
+      <option name="project" value="LOCAL" />
+      <updated>1423333849466</updated>
+    </task>
+    <option name="localTasksCounter" value="149" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -927,7 +926,8 @@
     <MESSAGE value="run Graph&#10;" />
     <MESSAGE value="dijkstra" />
     <MESSAGE value="PriorityQueue" />
-    <option name="LAST_COMMIT_MESSAGE" value="PriorityQueue" />
+    <MESSAGE value="8-Puzzle" />
+    <option name="LAST_COMMIT_MESSAGE" value="8-Puzzle" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1202,11 +1202,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GraphAlgorithms/Graphs/Board.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7513812" vertical-offset="0" max-vertical-offset="714">
-          <caret line="24" column="15" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
+        <state vertical-scroll-proportion="0.1878453" vertical-offset="0" max-vertical-offset="765">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding>
-            <element signature="e#144#145#0" expanded="true" />
-            <element signature="e#171#172#0" expanded="true" />
+            <element signature="e#165#166#0" expanded="true" />
+            <element signature="e#192#193#0" expanded="true" />
           </folding>
         </state>
       </provider>

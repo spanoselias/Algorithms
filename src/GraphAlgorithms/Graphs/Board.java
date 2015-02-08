@@ -85,23 +85,23 @@ public class Board {
             }
 
             if(zeroCol+1 < board[0].length){
-                puzzleNode neighborNode=new puzzleNode();
+                puzzleNode neighborNode=new puzzleNode(this.board);
                 swap(neighborNode,zeroRow,zeroCol,zeroRow,zeroCol+1);
                 neighborNode.parent=this.board;
                 listBoards.add(neighborNode);
             }
 
             if(zeroRow-1 >=0){
-                puzzleNode neighborNode=new puzzleNode();
+                puzzleNode neighborNode=new puzzleNode(this.board);
                 swap(neighborNode,zeroRow,zeroCol,zeroRow-1,zeroCol);
                 neighborNode.parent=this.board;
                 listBoards.add(neighborNode);
             }
 
-            if(zeroRow+1 >=board[0].length)
+            if(zeroRow+1 <=board[0].length)
             {
-                puzzleNode neighborNode=new puzzleNode();
-                swap(neighborNode,zeroRow,zeroCol,zeroRow-1,zeroCol);
+                puzzleNode neighborNode=new puzzleNode(this.board);
+                swap(neighborNode,zeroRow,zeroCol,zeroRow+1,zeroCol);
                 neighborNode.parent=this.board;
                 listBoards.add(neighborNode);
             }
@@ -111,7 +111,7 @@ public class Board {
 
     private void swap(puzzleNode boardIn,int zeroRowIn, int zeroColIn,int newRow, int newCol)
     {
-        int curNo=boardIn.puzzleBoard[zeroRowIn][zeroColIn];
+        int curNo=boardIn.puzzleBoard[newRow][newCol];
 
         boardIn.puzzleBoard[newRow][newCol]=0;
         boardIn.puzzleBoard[zeroRowIn][zeroColIn]=curNo;

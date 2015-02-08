@@ -5,18 +5,19 @@ package GraphAlgorithms.Graphs;
  */
 public class puzzleNode {
 
-        int [][] puzzleBoard;
+        Board puzzleBoard;
         int h;
         int g;
-        int [][] parent;
+        int f;
+        Board parent;
 
         puzzleNode(int [][] boardIn)
         {
             int size=boardIn[0].length;
-            puzzleBoard=new int[size][size];
+            puzzleBoard=new Board(boardIn);
 
             for(int i=0; i<boardIn[0].length; i++) {
-                System.arraycopy(boardIn[i], 0, this.puzzleBoard[i], 0, size);
+                System.arraycopy(boardIn[i], 0, this.puzzleBoard.board[i], 0, size);
             }
         }
        puzzleNode(){
@@ -26,17 +27,17 @@ public class puzzleNode {
             parent=null;
         }
 
-        puzzleNode(int [][] curboard,int h,int g,int [][] curparent)
+        puzzleNode(int [][] curboard,int h,int g,Board curparent)
         {
-            this.puzzleBoard=curboard;
+            this.puzzleBoard=new Board(curboard);
             this.h=h;
             this.g=g;
             this.parent=curparent;
         }public  String toString(){
         String repres="";
-        for (int i = 0; i < puzzleBoard[0].length; i++) {
-            for (int j = 0; j < puzzleBoard[1].length; j++) {
-                repres +=(puzzleBoard[i][j]+ " ");
+        for (int i = 0; i < puzzleBoard.board[0].length; i++) {
+            for (int j = 0; j < puzzleBoard.board[1].length; j++) {
+                repres +=(puzzleBoard.board[i][j]+ " ");
             }
             repres +="\n";
         }

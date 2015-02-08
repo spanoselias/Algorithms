@@ -37,6 +37,39 @@ public class driver {
         }
 
 
+        PriorityQueue<puzzleNode> openSetPriority=new PriorityQueue<puzzleNode>(11, new Comparator<puzzleNode>() {
+            @Override
+            public int compare(puzzleNode node1, puzzleNode node2) {
+                return node1.f<node2.f?-1: node1.f ==node2.f ? 0:1;
+            }
+        });
+
+        LinkedList<puzzleNode> closedSet=new LinkedList<puzzleNode>();
+
+        puzzleNode start=new puzzleNode(myBoard.board);
+        start.g=0;
+        start.h =start.g + start.puzzleBoard.manhattan();
+
+        while (!openSetPriority.isEmpty())
+        {
+
+            puzzleNode curBoard=openSetPriority.remove();
+            if(curBoard.puzzleBoard.isGoal()){return;}
+
+            closedSet.add(curBoard);
+
+
+
+
+        }//While openSet is not empty
+
+
+
+
+
+
+
+
 
 
     }

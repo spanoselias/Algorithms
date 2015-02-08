@@ -111,10 +111,10 @@ public class Board {
 
     private void swap(puzzleNode boardIn,int zeroRowIn, int zeroColIn,int newRow, int newCol)
     {
-        int curNo=boardIn.puzzleBoard[newRow][newCol];
+        int curNo=boardIn.puzzleBoard.board[newRow][newCol];
 
-        boardIn.puzzleBoard[newRow][newCol]=0;
-        boardIn.puzzleBoard[zeroRowIn][zeroColIn]=curNo;
+        boardIn.puzzleBoard.board[newRow][newCol]=0;
+        boardIn.puzzleBoard.board[zeroRowIn][zeroColIn]=curNo;
     }//Function Swap
 
 

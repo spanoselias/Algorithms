@@ -58,7 +58,15 @@ public class driver {
 
             closedSet.add(curBoard);
 
+            LinkedList<puzzleNode> curStateBoard=curBoard.puzzleBoard.neighbors();
 
+            for(puzzleNode possibleStateBoard : curStateBoard)
+            {
+                if(!openSetPriority.contains(possibleStateBoard))
+                {
+
+                }
+            }
 
 
         }//While openSet is not empty

@@ -80,21 +80,21 @@ public class Board {
             {
                 puzzleNode neighborNode=new puzzleNode(this.board);
                 swap(neighborNode,zeroRow,zeroCol,zeroRow,zeroCol-1);
-                neighborNode.parent=this.board;
+                neighborNode.parent.board=this.board;
                 listBoards.add(neighborNode);
             }
 
             if(zeroCol+1 < board[0].length){
                 puzzleNode neighborNode=new puzzleNode(this.board);
                 swap(neighborNode,zeroRow,zeroCol,zeroRow,zeroCol+1);
-                neighborNode.parent=this.board;
+                neighborNode.parent.board=this.board;
                 listBoards.add(neighborNode);
             }
 
             if(zeroRow-1 >=0){
                 puzzleNode neighborNode=new puzzleNode(this.board);
                 swap(neighborNode,zeroRow,zeroCol,zeroRow-1,zeroCol);
-                neighborNode.parent=this.board;
+                neighborNode.parent.board=this.board;
                 listBoards.add(neighborNode);
             }
 
@@ -102,7 +102,7 @@ public class Board {
             {
                 puzzleNode neighborNode=new puzzleNode(this.board);
                 swap(neighborNode,zeroRow,zeroCol,zeroRow+1,zeroCol);
-                neighborNode.parent=this.board;
+                neighborNode.parent.board=this.board;
                 listBoards.add(neighborNode);
             }
         return listBoards;

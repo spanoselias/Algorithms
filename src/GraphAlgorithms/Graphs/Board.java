@@ -4,6 +4,8 @@ package GraphAlgorithms.Graphs;
  * Created by Elias on 2/7/2015.
  */
 import java.lang.*;
+import java.util.LinkedList;
+import java.util.Stack;
 
 public class Board {
      int board[][];
@@ -28,8 +30,8 @@ public class Board {
              int curValue=board[i][j];
              if(curValue!=0)
              {
-                 int cordX=(curValue-1)%4;
-                 int cordY=(curValue-1)/4;
+                 int cordX=(curValue-1)% board[0].length;
+                 int cordY=(curValue-1)/ board[0].length;
 
                  totalManhattan += Math.abs(i - cordY)+ Math.abs(j-cordX);
              }//If is not the space
@@ -37,7 +39,10 @@ public class Board {
      }//For i
      return totalManhattan;
  }
+  public boolean isGoal(){
 
+        return manhattan()==0?true:false;
+    }
 
 public boolean equals(Board curBoard) {
 
@@ -52,23 +57,26 @@ public boolean equals(Board curBoard) {
 
 }
 
+    public LinkedList<Board> neighbors()
+    {
+        LinkedList<Board> boards= new LinkedList<Board>();
+
+
+        return boards;
+
+    }//Function neighbors
 
     public  String toString(){
-
         String repres="";
        for (int i = 0; i < board[0].length; i++) {
            for (int j = 0; j < board[1].length; j++) {
-
               repres +=(board[i][j]+ " ");
            }
            repres +="\n";
              }
-
            return repres;
    }//toString Function
-
-
-    }
+ }
 
 
 

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d438726-a0bd-4b5d-b825-7e23b9afd508" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/GraphAlgorithms/Graphs/puzzleSolver.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GraphAlgorithms/Graphs/Board.java" afterPath="$PROJECT_DIR$/src/GraphAlgorithms/Graphs/Board.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GraphAlgorithms/Graphs/driver.java" afterPath="$PROJECT_DIR$/src/GraphAlgorithms/Graphs/driver.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -30,13 +31,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="puzzleSolver.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/GraphAlgorithms/Graphs/puzzleSolver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="833">
+              <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Board.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/GraphAlgorithms/Graphs/Board.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.65745854" vertical-offset="0" max-vertical-offset="1258">
-              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.4364641" vertical-offset="647" max-vertical-offset="1394">
+              <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="method#equals#0;class#Board#0" expanded="false" />
+                <element signature="e#1405#1412#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -45,9 +58,11 @@
       <file leaf-file-name="driver.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GraphAlgorithms/Graphs/driver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
-              <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
-              <folding />
+            <state vertical-scroll-proportion="0.0" vertical-offset="188" max-vertical-offset="901">
+              <caret line="30" column="42" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -104,6 +119,7 @@
         <option value="$PROJECT_DIR$/src/GraphAlgorithms/Graphs/runGraph.java" />
         <option value="$PROJECT_DIR$/src/GraphAlgorithms/Graphs/dijkstra.java" />
         <option value="$PROJECT_DIR$/src/GraphAlgorithms/Graphs/puzzle8.java" />
+        <option value="$PROJECT_DIR$/src/GraphAlgorithms/Graphs/puzzleSolver.java" />
         <option value="$PROJECT_DIR$/src/GraphAlgorithms/Graphs/driver.java" />
         <option value="$PROJECT_DIR$/src/GraphAlgorithms/Graphs/Board.java" />
       </list>
@@ -546,12 +562,6 @@
       <workItem from="1422180679400" duration="237000" />
       <workItem from="1422204641091" duration="5804000" />
     </task>
-    <task id="LOCAL-00102" summary="Find Peak Algorithm">
-      <created>1421249197301</created>
-      <option name="number" value="00102" />
-      <option name="project" value="LOCAL" />
-      <updated>1421249197301</updated>
-    </task>
     <task id="LOCAL-00103" summary="Find Peak Algorithm">
       <created>1421249200035</created>
       <option name="number" value="00103" />
@@ -840,7 +850,13 @@
       <option name="project" value="LOCAL" />
       <updated>1423335687833</updated>
     </task>
-    <option name="localTasksCounter" value="151" />
+    <task id="LOCAL-00151" summary="8-Puzzle">
+      <created>1423337525299</created>
+      <option name="number" value="00151" />
+      <option name="project" value="LOCAL" />
+      <updated>1423337525299</updated>
+    </task>
+    <option name="localTasksCounter" value="152" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -860,7 +876,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22100955" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22100955" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17122395" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1023,10 +1039,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1036" max-vertical-offset="1751">
           <caret line="102" column="47" selection-start-line="82" selection-start-column="5" selection-end-line="102" selection-end-column="47" />
-          <folding>
-            <element signature="e#200#201#0" expanded="true" />
-            <element signature="e#265#266#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1034,10 +1047,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1768">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#200#201#0" expanded="true" />
-            <element signature="e#265#266#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1046,7 +1056,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="186" max-vertical-offset="1309">
           <caret line="45" column="2" selection-start-line="45" selection-start-column="2" selection-end-line="45" selection-end-column="2" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1063,10 +1073,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1819">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#200#201#0" expanded="true" />
-            <element signature="e#265#266#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1075,7 +1082,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="186" max-vertical-offset="1309">
           <caret line="45" column="2" selection-start-line="45" selection-start-column="2" selection-end-line="45" selection-end-column="2" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1092,10 +1099,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="973" max-vertical-offset="1581">
           <caret line="47" column="26" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
-          <folding>
-            <element signature="e#200#201#0" expanded="true" />
-            <element signature="e#265#266#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1104,7 +1108,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1114,9 +1118,9 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="346" max-vertical-offset="1275">
           <caret line="64" column="5" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#286#287#0" expanded="true" />
-            <element signature="e#318#319#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#286#287#0" expanded="false" />
+            <element signature="e#318#319#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1140,9 +1144,9 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="346" max-vertical-offset="1275">
           <caret line="64" column="5" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#286#287#0" expanded="true" />
-            <element signature="e#318#319#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#286#287#0" expanded="false" />
+            <element signature="e#318#319#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1173,23 +1177,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GraphAlgorithms/Graphs/dijkstra.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="358" max-vertical-offset="901">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#555#561#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/GraphAlgorithms/Graphs/BfsSearch.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.56537753" vertical-offset="766" max-vertical-offset="1309">
           <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="61" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1202,31 +1195,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/GraphAlgorithms/Graphs/dijkstra.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="358" max-vertical-offset="901">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#555#561#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GraphAlgorithms/Graphs/puzzleSolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="833">
+          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/GraphAlgorithms/Graphs/Graph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.0055249" vertical-offset="0" max-vertical-offset="1802">
-          <caret line="102" column="47" selection-start-line="82" selection-start-column="5" selection-end-line="102" selection-end-column="47" />
-          <folding>
-            <element signature="e#200#201#0" expanded="true" />
-            <element signature="e#265#266#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.7495396" vertical-offset="409" max-vertical-offset="1751">
+          <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GraphAlgorithms/Graphs/driver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
-          <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="188" max-vertical-offset="901">
+          <caret line="30" column="42" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GraphAlgorithms/Graphs/Board.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.65745854" vertical-offset="0" max-vertical-offset="1258">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.4364641" vertical-offset="647" max-vertical-offset="1394">
+          <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="method#equals#0;class#Board#0" expanded="false" />
+            <element signature="e#1405#1412#0" expanded="true" />
           </folding>
         </state>
       </provider>

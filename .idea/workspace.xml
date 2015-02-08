@@ -42,12 +42,12 @@
       <file leaf-file-name="Board.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/GraphAlgorithms/Graphs/Board.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.786372" vertical-offset="542" max-vertical-offset="1513">
-              <caret line="68" column="8" selection-start-line="68" selection-start-column="8" selection-end-line="68" selection-end-column="8" />
+            <state vertical-scroll-proportion="0.8453039" vertical-offset="799" max-vertical-offset="1836">
+              <caret line="85" column="8" selection-start-line="85" selection-start-column="8" selection-end-line="85" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#equals#0;class#Board#0" expanded="false" />
-                <element signature="e#1425#1432#0" expanded="true" />
+                <element signature="e#1487#1494#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -560,12 +560,6 @@
       <workItem from="1422180679400" duration="237000" />
       <workItem from="1422204641091" duration="5804000" />
     </task>
-    <task id="LOCAL-00104" summary="Find Peak Algorithm">
-      <created>1421250121592</created>
-      <option name="number" value="00104" />
-      <option name="project" value="LOCAL" />
-      <updated>1421250121593</updated>
-    </task>
     <task id="LOCAL-00105" summary="Find Peak Algorithm">
       <created>1421271295285</created>
       <option name="number" value="00105" />
@@ -854,7 +848,13 @@
       <option name="project" value="LOCAL" />
       <updated>1423419572075</updated>
     </task>
-    <option name="localTasksCounter" value="153" />
+    <task id="LOCAL-00153" summary="8-Puzzle">
+      <created>1423419981688</created>
+      <option name="number" value="00153" />
+      <option name="project" value="LOCAL" />
+      <updated>1423419981688</updated>
+    </task>
+    <option name="localTasksCounter" value="154" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1232,12 +1232,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GraphAlgorithms/Graphs/Board.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.786372" vertical-offset="542" max-vertical-offset="1513">
-          <caret line="68" column="8" selection-start-line="68" selection-start-column="8" selection-end-line="68" selection-end-column="8" />
+        <state vertical-scroll-proportion="0.8453039" vertical-offset="799" max-vertical-offset="1836">
+          <caret line="85" column="8" selection-start-line="85" selection-start-column="8" selection-end-line="85" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#equals#0;class#Board#0" expanded="false" />
-            <element signature="e#1425#1432#0" expanded="true" />
+            <element signature="e#1487#1494#0" expanded="true" />
           </folding>
         </state>
       </provider>

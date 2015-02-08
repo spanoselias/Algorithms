@@ -3,6 +3,8 @@ package GraphAlgorithms.Graphs;
 /**
  * Created by Elias on 2/7/2015.
  */
+import com.sun.xml.internal.ws.api.ImpliesWebServiceFeature;
+
 import java.lang.*;
 import java.util.LinkedList;
 import java.util.Stack;
@@ -60,11 +62,28 @@ public class Board {
     public LinkedList<Board> neighbors()
     {
         LinkedList<Board> boards= new LinkedList<Board>();
+        int zeroRow;
+        int zeroCol;
+
+        for(int i=0; i<board[0].length; i++){
+             for(int j=0; j<board[1].length; j++){
+                 if(board[i][j]==0){
+                     zeroRow=i;
+                     zeroCol=j;
+                 }
+             }
+        }
+
+
+
         return boards;
     }//Function neighbors
 
-    private void swap(Board boardIn,int curRow, int curCol,int newRow, int newCol)
+    private void swap(Board boardIn,int zeroRowIn, int zeroColIn,int newRow, int newCol)
     {
+        int curNo=boardIn.board[zeroRowIn][zeroColIn];
+
+
 
 
     }//Function Swap

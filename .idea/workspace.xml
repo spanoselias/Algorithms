@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d438726-a0bd-4b5d-b825-7e23b9afd508" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/GraphAlgorithms/Graphs/puzzleSolver.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GraphAlgorithms/Graphs/Board.java" afterPath="$PROJECT_DIR$/src/GraphAlgorithms/Graphs/Board.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GraphAlgorithms/Graphs/driver.java" afterPath="$PROJECT_DIR$/src/GraphAlgorithms/Graphs/driver.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="programming.iws" />
@@ -44,12 +42,12 @@
       <file leaf-file-name="Board.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/GraphAlgorithms/Graphs/Board.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4364641" vertical-offset="647" max-vertical-offset="1394">
-              <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.786372" vertical-offset="542" max-vertical-offset="1513">
+              <caret line="68" column="8" selection-start-line="68" selection-start-column="8" selection-end-line="68" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#equals#0;class#Board#0" expanded="false" />
-                <element signature="e#1405#1412#0" expanded="true" />
+                <element signature="e#1425#1432#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -562,12 +560,6 @@
       <workItem from="1422180679400" duration="237000" />
       <workItem from="1422204641091" duration="5804000" />
     </task>
-    <task id="LOCAL-00103" summary="Find Peak Algorithm">
-      <created>1421249200035</created>
-      <option name="number" value="00103" />
-      <option name="project" value="LOCAL" />
-      <updated>1421249200035</updated>
-    </task>
     <task id="LOCAL-00104" summary="Find Peak Algorithm">
       <created>1421250121592</created>
       <option name="number" value="00104" />
@@ -856,7 +848,13 @@
       <option name="project" value="LOCAL" />
       <updated>1423337525299</updated>
     </task>
-    <option name="localTasksCounter" value="152" />
+    <task id="LOCAL-00152" summary="8-Puzzle">
+      <created>1423419572074</created>
+      <option name="number" value="00152" />
+      <option name="project" value="LOCAL" />
+      <updated>1423419572075</updated>
+    </task>
+    <option name="localTasksCounter" value="153" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1234,12 +1232,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GraphAlgorithms/Graphs/Board.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4364641" vertical-offset="647" max-vertical-offset="1394">
-          <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.786372" vertical-offset="542" max-vertical-offset="1513">
+          <caret line="68" column="8" selection-start-line="68" selection-start-column="8" selection-end-line="68" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#equals#0;class#Board#0" expanded="false" />
-            <element signature="e#1405#1412#0" expanded="true" />
+            <element signature="e#1425#1432#0" expanded="true" />
           </folding>
         </state>
       </provider>

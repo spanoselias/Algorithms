@@ -39,12 +39,12 @@ public class Board {
      }//For i
      return totalManhattan;
  }
-  public boolean isGoal(){
+       public boolean isGoal(){
 
         return manhattan()==0?true:false;
-    }
+             }
 
-public boolean equals(Board curBoard) {
+      public boolean equals(Board curBoard) {
 
     for (int i = 0; i < board[0].length; i++) {
         for (int j = 0; j < board[1].length; j++) {
@@ -60,11 +60,18 @@ public boolean equals(Board curBoard) {
     public LinkedList<Board> neighbors()
     {
         LinkedList<Board> boards= new LinkedList<Board>();
-
-
         return boards;
-
     }//Function neighbors
+
+    private void swap(Board boardIn,int curRow, int curCol,int newRow, int newCol)
+    {
+
+
+    }//Function Swap
+
+
+
+
 
     public  String toString(){
         String repres="";

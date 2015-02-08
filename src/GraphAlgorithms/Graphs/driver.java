@@ -17,8 +17,8 @@ public class driver {
 //        }
 //        System.out.println(pr.poll());
 
-         int[][] solved = { { 1, 2, 3 }, { 4, 5, 6 },
-                { 7, 8, 0 } };
+         int[][] solved = { { 1, 2, 3 }, { 4, 0, 6 },
+                { 7, 8, 5 } };
 
         int[][] solved1 = { { 1, 2, 3 }, { 4, 5, 6 },
                 { 8, 7, 0 } };
@@ -27,15 +27,11 @@ public class driver {
                 { 8, 0,7 } };
 
         Board myBoard=new Board(solved);
-        Board myBoard1=new Board(solved1);
-        Board myBoard2=new Board(solved2);
       //  System.out.println(myBoard) ;
 
-        myBoard.neighbors(myBoard1,myBoard2);
+        LinkedList<puzzleNode> myBoards=myBoard.neighbors();
 
-        LinkedList<Board> myBoards=myBoard.neighbors(myBoard1,myBoard2);
-
-        for(Board curBoard : myBoards)
+        for(puzzleNode curBoard : myBoards)
         {
             System.out.println(curBoard);
         }

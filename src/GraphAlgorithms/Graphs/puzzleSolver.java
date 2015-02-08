@@ -7,22 +7,7 @@ import javax.swing.tree.TreeNode;
  */
 public class puzzleSolver {
 
-public class puzzleNode
-    {
 
-        Board board;
-        int h;
-        int g;
-        puzzleNode parent;
-
-
-   puzzleNode(Board curboard,int h,int g,puzzleNode curparent)
-   {
-       this.board=curboard;
-       this.h=h;
-       this.g=g;
-       this.parent=curparent;
-   }
 
 
 
@@ -40,4 +25,4 @@ public class puzzleNode
 
 
 
-}
+

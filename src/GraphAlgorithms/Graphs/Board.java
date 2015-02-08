@@ -5,6 +5,7 @@ package GraphAlgorithms.Graphs;
  */
 import com.sun.xml.internal.ws.api.ImpliesWebServiceFeature;
 
+import javax.naming.directory.SearchControls;
 import java.lang.*;
 import java.util.LinkedList;
 import java.util.Stack;
@@ -59,33 +60,61 @@ public class Board {
 
 }
 
-    public LinkedList<Board> neighbors()
+    public LinkedList<puzzleNode> neighbors()
     {
-        LinkedList<Board> boards= new LinkedList<Board>();
-        int zeroRow;
-        int zeroCol;
+       LinkedList<puzzleNode> listBoards= new LinkedList<puzzleNode>();
+       int zeroRow=-1;
+       int zeroCol=-1;
+       int size=board[0].length;
 
-        for(int i=0; i<board[0].length; i++){
-             for(int j=0; j<board[1].length; j++){
-                 if(board[i][j]==0){
-                     zeroRow=i;
-                     zeroCol=j;
-                 }
-             }
+        for(int i=0; i<board[0].length; i++) {
+            for (int j = 0; j < board[1].length; j++) {
+                if (board[i][j] == 0) {
+                    zeroRow = i;
+                    zeroCol = j;
+                }
+            }
         }
 
+         if(zeroCol-1 >= 0)
+            {
+                puzzleNode neighborNode=new puzzleNode(this.board);
+                swap(neighborNode,zeroRow,zeroCol,zeroRow,zeroCol-1);
+                neighborNode.parent=this.board;
+                listBoards.add(neighborNode);
+            }
 
+            if(zeroCol+1 < board[0].length){
+                puzzleNode neighborNode=new puzzleNode();
+                swap(neighborNode,zeroRow,zeroCol,zeroRow,zeroCol+1);
+                neighborNode.parent=this.board;
+                listBoards.add(neighborNode);
+            }
 
-        return boards;
+            if(zeroRow-1 >=0){
+                puzzleNode neighborNode=new puzzleNode();
+                swap(neighborNode,zeroRow,zeroCol,zeroRow-1,zeroCol);
+                neighborNode.parent=this.board;
+                listBoards.add(neighborNode);
+            }
+
+            if(zeroRow+1 >=board[0].length)
+            {
+                puzzleNode neighborNode=new puzzleNode();
+                swap(neighborNode,zeroRow,zeroCol,zeroRow-1,zeroCol);
+                neighborNode.parent=this.board;
+                listBoards.add(neighborNode);
+            }
+        return listBoards;
+
     }//Function neighbors
 
-    private void swap(Board boardIn,int zeroRowIn, int zeroColIn,int newRow, int newCol)
+    private void swap(puzzleNode boardIn,int zeroRowIn, int zeroColIn,int newRow, int newCol)
     {
-        int curNo=boardIn.board[zeroRowIn][zeroColIn];
+        int curNo=boardIn.puzzleBoard[zeroRowIn][zeroColIn];
 
-
-
-
+        boardIn.puzzleBoard[newRow][newCol]=0;
+        boardIn.puzzleBoard[zeroRowIn][zeroColIn]=curNo;
     }//Function Swap
 
 

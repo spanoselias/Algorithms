@@ -26,7 +26,7 @@ public class driver {
         int[][] solved2 = { { 2, 1, 3 }, { 4, 5, 6 },
                 { 8, 0,7 } };
 
-        Board myBoard=new Board(solved2);
+        SearchNode myBoard=new SearchNode(solved2);
       //  System.out.println(myBoard) ;
 
         LinkedList<SearchNode> myBoards=myBoard.neighbors();
@@ -36,7 +36,7 @@ public class driver {
             System.out.println(curBoard);
         }
 
-
+/*
         PriorityQueue<SearchNode> openSetPriority=new PriorityQueue<SearchNode>(11, new Comparator<SearchNode>() {
             @Override
             public int compare(SearchNode node1, SearchNode node2) {
@@ -46,7 +46,7 @@ public class driver {
 
         LinkedList<SearchNode> closedSet=new LinkedList<SearchNode>();
 
-        SearchNode start=new SearchNode(myBoard.board);
+        SearchNode start=new SearchNode(myBoard.puzzleBoard.board);
         start.g=0;
         start.h =start.g + start.puzzleBoard.manhattan();
 
@@ -72,7 +72,7 @@ public class driver {
 
 
         }//While openSet is not empty
-
+*/
 
 
 

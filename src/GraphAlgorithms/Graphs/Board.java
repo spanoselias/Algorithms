@@ -57,64 +57,6 @@ public class Board {
 
 }
 
-    public LinkedList<SearchNode> neighbors()
-    {
-       LinkedList<SearchNode> listBoards= new LinkedList<SearchNode>();
-       int zeroRow=-1;
-       int zeroCol=-1;
-       int size=board[0].length;
-
-        for(int i=0; i<board[0].length; i++) {
-            for (int j = 0; j < board[1].length; j++) {
-                if (board[i][j] == 0) {
-                    zeroRow = i;
-                    zeroCol = j;
-                }
-            }
-        }
-
-         if(zeroCol-1 >= 0)
-            {
-                SearchNode neighborNode=new SearchNode(this.board);
-                swap(neighborNode,zeroRow,zeroCol,zeroRow,zeroCol-1);
-                neighborNode.parent.board=this.board;
-                listBoards.add(neighborNode);
-            }
-
-            if(zeroCol+1 < board[0].length){
-                SearchNode neighborNode=new SearchNode(this.board);
-                swap(neighborNode,zeroRow,zeroCol,zeroRow,zeroCol+1);
-                neighborNode.parent.board=this.board;
-                listBoards.add(neighborNode);
-            }
-
-            if(zeroRow-1 >=0){
-                SearchNode neighborNode=new SearchNode(this.board);
-                swap(neighborNode,zeroRow,zeroCol,zeroRow-1,zeroCol);
-                neighborNode.parent.board=this.board;
-                listBoards.add(neighborNode);
-            }
-
-            if(zeroRow+1 <=board[0].length)
-            {
-                SearchNode neighborNode=new SearchNode(this.board);
-                swap(neighborNode,zeroRow,zeroCol,zeroRow+1,zeroCol);
-                neighborNode.parent.board=this.board;
-                listBoards.add(neighborNode);
-            }
-        return listBoards;
-
-    }//Function neighbors
-
-    private void swap(SearchNode boardIn,int zeroRowIn, int zeroColIn,int newRow, int newCol)
-    {
-        int curNo=boardIn.puzzleBoard.board[newRow][newCol];
-
-        boardIn.puzzleBoard.board[newRow][newCol]=0;
-        boardIn.puzzleBoard.board[zeroRowIn][zeroColIn]=curNo;
-    }//Function Swap
-
-
 
 
 

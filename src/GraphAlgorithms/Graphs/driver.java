@@ -26,7 +26,7 @@ public class driver {
         int[][] solved2 = { { 2, 1, 3 }, { 4, 5, 6 },
                 { 8, 0,7 } };
 
-        Board myBoard=new Board(solved);
+        Board myBoard=new Board(solved2);
       //  System.out.println(myBoard) ;
 
         LinkedList<SearchNode> myBoards=myBoard.neighbors();
@@ -59,6 +59,8 @@ public class driver {
             closedSet.add(curBoard);
 
             LinkedList<SearchNode> curStateBoard=curBoard.puzzleBoard.neighbors();
+
+
 
             for(SearchNode possibleStateBoard : curStateBoard)
             {

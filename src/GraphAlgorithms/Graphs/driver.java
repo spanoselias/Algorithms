@@ -29,38 +29,38 @@ public class driver {
         Board myBoard=new Board(solved);
       //  System.out.println(myBoard) ;
 
-        LinkedList<puzzleNode> myBoards=myBoard.neighbors();
+        LinkedList<SearchNode> myBoards=myBoard.neighbors();
 
-        for(puzzleNode curBoard : myBoards)
+        for(SearchNode curBoard : myBoards)
         {
             System.out.println(curBoard);
         }
 
 
-        PriorityQueue<puzzleNode> openSetPriority=new PriorityQueue<puzzleNode>(11, new Comparator<puzzleNode>() {
+        PriorityQueue<SearchNode> openSetPriority=new PriorityQueue<SearchNode>(11, new Comparator<SearchNode>() {
             @Override
-            public int compare(puzzleNode node1, puzzleNode node2) {
+            public int compare(SearchNode node1, SearchNode node2) {
                 return node1.f<node2.f?-1: node1.f ==node2.f ? 0:1;
             }
         });
 
-        LinkedList<puzzleNode> closedSet=new LinkedList<puzzleNode>();
+        LinkedList<SearchNode> closedSet=new LinkedList<SearchNode>();
 
-        puzzleNode start=new puzzleNode(myBoard.board);
+        SearchNode start=new SearchNode(myBoard.board);
         start.g=0;
         start.h =start.g + start.puzzleBoard.manhattan();
 
         while (!openSetPriority.isEmpty())
         {
 
-            puzzleNode curBoard=openSetPriority.remove();
+            SearchNode curBoard=openSetPriority.remove();
             if(curBoard.puzzleBoard.isGoal()){return;}
 
             closedSet.add(curBoard);
 
-            LinkedList<puzzleNode> curStateBoard=curBoard.puzzleBoard.neighbors();
+            LinkedList<SearchNode> curStateBoard=curBoard.puzzleBoard.neighbors();
 
-            for(puzzleNode possibleStateBoard : curStateBoard)
+            for(SearchNode possibleStateBoard : curStateBoard)
             {
                 if(!openSetPriority.contains(possibleStateBoard))
                 {

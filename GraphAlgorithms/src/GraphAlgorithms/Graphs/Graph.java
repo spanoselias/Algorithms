@@ -1,0 +1,106 @@
+package GraphAlgorithms.Graphs;
+
+/**
+ * Created by Elias on 1/20/2015.
+ */
+import java.util.*;
+
+public class Graph {
+
+    private SortedMap<Integer,LinkedList<Integer>> graph;
+
+    public Graph()
+    {
+        graph=new TreeMap<Integer, LinkedList<Integer>>();
+    }//Constructor
+
+    public void addVertex(int vertexIn)
+    {
+        graph.put(vertexIn, new LinkedList<Integer>());
+    }//Add Vertex
+
+    public void addEdge(int vertex1,int vertex2)
+    {
+        connectVertex(vertex1,vertex2);
+        connectVertex(vertex2,vertex1);
+    }//Add neighbor method
+
+    public LinkedList<Integer> getNeighbors(int vertex)
+    {
+        return graph.get(vertex);
+
+    }//Get Neighbors method
+
+
+    public void connectVertex(int vertex1,int vertex2)
+    {
+        if(!graph.containsKey(vertex1))
+        {
+            graph.put(vertex1, new LinkedList<Integer>());
+            graph.get(vertex1).add(vertex2);
+        }
+        else
+            graph.get(vertex1).add(vertex2);
+
+    }//Connect Vertex
+
+
+    public int getSize()
+    {
+        return graph.size();
+    }//Get size method
+
+    public  int degree(int vertex)
+    {
+        int degree=0;
+        LinkedList<Integer> edges= graph.get(vertex);
+        for(Integer edge : edges)degree++;
+
+        return degree;
+    }//Calculate Degree of a Graph
+
+    public void printGraph()
+    {
+        for(Map.Entry<Integer,LinkedList<Integer>> entry:graph.entrySet())
+        {
+            Integer vertex=entry.getKey();
+            LinkedList<Integer> curEdges=entry.getValue();
+
+            if( curEdges.size()>0)
+            System.out.print(vertex + ": ");
+
+            for(Integer edge : curEdges)
+            {
+                System.out.print(edge + ", ");
+            }
+                System.out.println();
+
+        }//For Statment
+    }//Print Graph
+
+    public static void main(String [] args)
+    {
+        Graph myGraph=new Graph();
+
+     readTxt readgraph=new readTxt("mygraph.txt");
+     readgraph.readGraphTxt(myGraph);
+//         myGraph.addEdge(0,1);
+//         myGraph.addEdge(1,2);
+//         myGraph.addEdge(1,3);
+//         myGraph.addEdge(2,3);
+//         myGraph.addEdge(3,4);
+
+      // myGraph.printGraph();
+        //BfsSearch search=new BfsSearch();
+
+        dfsSearch dfs=new dfsSearch(myGraph);
+       dfs.dfs(0);
+        //Queue<Integer>path=new LinkedList<Integer>();
+      //search.bfs(myGraph,1);
+
+
+     //   System.out.println(path);
+      // System.out.println(myGraph.getSize());
+
+    }//Main
+}//Class
